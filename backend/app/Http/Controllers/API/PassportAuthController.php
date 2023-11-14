@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Auth;
 use App\Models\User;
+use App\Models\Role;
 use Validator;
 
 class PassportAuthController extends Controller
@@ -137,5 +138,29 @@ class PassportAuthController extends Controller
 
         //devolver los roles como JSON
         return response()->json(['user_roles' => $userRoles]);
+    }
+
+
+    public function assignRoles(Request $request, $id)
+    {
+        // Validar la solicitud
+        $request->validate([
+            'role_ids' => 'required|array',
+        ]);
+
+        // Encontrar el usuario por su ID
+        $user = User::find($id);
+
+        // Asignar roles al usuario
+        foreach ($request->input('role_ids') as $role_id) {
+            $role = Role::find($role_id);
+            
+            if ($role) {
+                $user->roles()->attach($role->id);
+            }
+        }
+        return response()->json([
+            'message' => 'Roles asignados correctamente'
+        ]);
     }
 }

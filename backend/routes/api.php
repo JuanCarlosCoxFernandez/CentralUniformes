@@ -29,6 +29,10 @@ Route::middleware('auth:api')->group(function () {
     Route::get('users/{id}', [PassportAuthController::class, 'show']);
     Route::put('users/{id}', [PassportAuthController::class, 'update']);
     Route::delete('users/{id}', [PassportAuthController::class, 'destroy']);
+    // faltan por comprobar
+    Route::get('users/{id}',[PassportAuthController::class, 'roles']);
+    Route::put('users/{id}',[PassportAuthController::class, 'assignRoles']);
+    //
     // Rutas autenticadas para RoleController
     Route::get('roles', [RoleController::class, 'index']);
     Route::post('roles', [RoleController::class, 'store']);
