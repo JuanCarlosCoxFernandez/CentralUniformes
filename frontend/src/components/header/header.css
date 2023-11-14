@@ -1,0 +1,39 @@
+/* Estilos para el header */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  .name1 {
+    color: red !important;;
+  }
+
+  .name2 {
+    color:lawngreen !important;
+  }
+  /* Estilos para el título del header */
+  .header-title {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  /* Estilos para la barra de navegación del header */
+  .header-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .header-nav li {
+    margin-right: 20px;
+  }
+  
+  .header-nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .header-nav a:hover {
+    text-decoration: underline;
+  }
+  

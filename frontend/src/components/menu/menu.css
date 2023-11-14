@@ -1,0 +1,38 @@
+/* Estilos para el menú lateral */
+.menu {
+  width: 50px;
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  top: 70px; /* Asegura que comience debajo del encabezado */
+  bottom: 0; /* Ocupa la altura completa del encabezado */
+  left: 0;
+  padding: 10px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Estilos para los elementos del menú lateral */
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+/* Estilos para los enlaces del menú lateral */
+.menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
