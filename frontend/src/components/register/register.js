@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { createEmployee } from '../../services/employeeService.js';
+import { createUser } from '../../services/employeeService.js';
+import './register.css';
 
 function Register() {
   const [username, setusername] = useState('');
@@ -28,7 +29,7 @@ function Register() {
     };
 
     // Call the createEmployee function to create a new employee
-    createEmployee(newEmployeeData)
+    createUser(newEmployeeData)
       .then((createdEmployee) => {
         console.log('Employee created:', createdEmployee);
         // You can add further actions like clearing the form or updating the employee list
@@ -38,9 +39,12 @@ function Register() {
       });
   };
 
+  
+
   return (
-    <div>
-      <h1>User Sign Up</h1><br></br>
+    <div className='content-register'>
+      <h1>User Sign Up</h1>
+      <img src='/img/logo.png' alt='LogoCentralUniformes'></img><br></br>
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="username">Username:</label><br></br>
@@ -57,7 +61,7 @@ function Register() {
           <input type="email" id="email" value={email} onChange={handleEmailChange} />
         </div>
         <br></br>
-        <button type="submit">Sign in</button> <button type="submit">Cancel</button>
+        <button type="submit" className='register'>Sign in</button> <button type="reset"  className='cancel'>Cancel</button>
       </form>
     </div>
   );

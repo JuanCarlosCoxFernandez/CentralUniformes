@@ -3,18 +3,19 @@ import Header from '../../components/header/header';
 import Menu from '../../components/menu/menu';
 import '../../components/menu/menu.css';
 import '../../components/header/header.css';
-import Employees from '../../components/employees/employees';
-    
+import Login from '../../components/login/login';
 
-function EmployeesView() {
+function LoginView() {
     return(
         <div className="App">
       <Header />
       <div className="content">
         <Menu />
-        <Employees className="content-employeesView"/>
+        <Login />
+        {/* <Employees /> */}
       </div>
     </div>
     );
 }
-export default EmployeesView;
+
+export default LoginView;

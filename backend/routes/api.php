@@ -22,16 +22,18 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::post('register', [PassportAuthController::class, 'register']);
 Route::post('login', [PassportAuthController::class, 'login']);
-
+Route::get('users', [PassportAuthController::class, 'index']);
 Route::middleware('auth:api')->group(function () {
     // Rutas autenticadas para PassportAuthController
-    Route::get('users', [PassportAuthController::class, 'index']);
+    // Route::get('users', [PassportAuthController::class, 'index']);
     Route::get('users/{id}', [PassportAuthController::class, 'show']);
     Route::put('users/{id}', [PassportAuthController::class, 'update']);
     Route::delete('users/{id}', [PassportAuthController::class, 'destroy']);
     // faltan por comprobar
     Route::get('users/{id}',[PassportAuthController::class, 'roles']);
-    Route::put('users/{id}',[PassportAuthController::class, 'assignRoles']);
+    Route::post('users/{id}',[PassportAuthController::class, 'assignRoles']);
+    Route::put('users/{id}',[PassportAuthController::class, 'modifyRoles']);
+    Route::delete('/users/{userId}/roles/{roleId}', [UserController::class, 'deleteRole']);
     //
     // Rutas autenticadas para RoleController
     Route::get('roles', [RoleController::class, 'index']);

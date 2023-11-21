@@ -163,4 +163,51 @@ class PassportAuthController extends Controller
             'message' => 'Roles asignados correctamente'
         ]);
     }
+
+    public function modifyRoles(Request $request, $id)
+    {
+        // Validar la solicitud según tus necesidades
+        $request->validate([
+            'role_ids' => 'required|array',
+        ]);
+
+        // Encontrar el usuario por su ID
+        $user = User::find($id);
+
+        // Modificar roles del usuario
+        $roleIds = $request->input('role_ids');
+
+        // Opción 1: sync (reemplazar roles existentes con los proporcionados)
+        $user->roles()->sync($roleIds);
+
+        // Opción 2: syncWithoutDetaching (agregar nuevos roles sin eliminar los existentes)
+        // $user->roles()->syncWithoutDetaching($roleIds);
+
+        // Puedes devolver una respuesta JSON
+        return response()->json(['message' => 'Roles modificados correctamente']);
+    }
+
+    public function deleteRole(Request $request, $id, $roleId)
+    {
+        // Validar la solicitud según tus necesidades
+        // ...
+
+        // Encontrar el usuario por su ID
+        $user = User::find($id);
+
+        // Encontrar el rol por su ID
+        $role = Role::find($roleId);
+
+        // Verificar si el usuario y el rol existen
+        if ($user && $role) {
+            // Eliminar el rol del usuario
+            $user->roles()->detach($role->id);
+
+            // Puedes devolver una respuesta JSON
+            return response()->json(['message' => 'Rol eliminado correctamente']);
+        } else {
+            // Puedes devolver una respuesta JSON indicando que el usuario o el rol no fueron encontrados
+            return response()->json(['message' => 'Usuario o rol no encontrados'], 404);
+        }
+    }
 }

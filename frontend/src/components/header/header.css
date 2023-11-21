@@ -1,15 +1,33 @@
 /* Estilos para el header */
+.HeaderView {
+  height: 30px;
+  position:absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  align-content: center;
+
+}
 .header {
     background-color: #333;
     color: #fff;
-    padding: 10px;
+    /* padding: 10px; */
+    height:max-content;
   }
+  /* .header-container {
+    background-color: blue ;
+  } */
+
   .name1 {
-    color: red !important;;
+    color: red !important;
+    margin-left: 15px;
+    text-decoration: none !important;
   }
 
   .name2 {
     color:lawngreen !important;
+    text-decoration: none !important;
   }
   /* Estilos para el título del header */
   .header-title {
@@ -18,10 +36,14 @@
   }
   
   /* Estilos para la barra de navegación del header */
+  .header-nav {
+    height: 30px;
+  }
   .header-nav ul {
     list-style: none;
     padding: 0;
     display: flex;
+    height: 30px;
   }
   
   .header-nav li {
@@ -37,3 +59,11 @@
     text-decoration: underline;
   }
   
+  .right-align {
+    margin-left: auto;
+  }
+
+  .IconsHeader {
+    width: 20px;
+    height: 20px;
+  }
