@@ -4,10 +4,10 @@
   background-color: #333;
   color: #fff;
   position: fixed;
-  top: 70px; /* Asegura que comience debajo del encabezado */
-  bottom: 0; /* Ocupa la altura completa del encabezado */
+  top: 46px; /*Asegura que comience debajo del encabezado*/
+  bottom: 0; /*Ocupa la altura completa del encabezado*/
   left: 0;
-  padding: 10px;
+  padding: 20px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
   z-index: 100;
   display: flex;

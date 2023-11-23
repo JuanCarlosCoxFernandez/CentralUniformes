@@ -18,6 +18,20 @@
     justify-content: flex-end;
    } */
 
+   .content-employees {
+    padding: 40px;
+    width: 80%;
+    padding-left: 90px;
+    text-align: left;
+    
+   }
+   
+   .list-employees {
+    flex:1;
+    text-align: left;
+    border-top:4px solid lightgray;
+     
+   }
    .employee-item {
     display: flex;
     flex-direction: column;
@@ -30,4 +44,56 @@
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+   }
+
+   .h3values {
+    padding: initial;
+    margin-right: 50%;
+    width: 8vw;
+
+   }
+
+   .email-space {
+    text-align: center !important;
+   }
+
+   .email-align {
+    text-align: left !important;
+   }
+
+    /**/
+   .block {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+   }
+
+
+   .customHeader{
+    text-align: center ;
+    flex-direction: row;
+    display: flex;
+    margin-left: 5%;
+   }
+
+   .title-space {
+    margin-left: 23%;
+   }
+
+   .borders {
+    margin-top: 10%;
+    margin-bottom: 5%;
+   }
+
+   .buttonPadding {
+    margin-left: -5% !important;
+   }
+
+   .ButtonDelete {
+    background-color: red;
+   }
+
+   .ButtonUpdate {
+    background-color:#6EC14E;
    }

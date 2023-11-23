@@ -8,6 +8,7 @@ use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Auth;
 use App\Models\User;
 use App\Models\Role;
+use Illuminate\Support\Facades\Log;
 use Validator;
 
 class PassportAuthController extends Controller
@@ -117,50 +118,96 @@ class PassportAuthController extends Controller
 
     public function destroy($id)
     {
-        $users->delete();
+        $user = User::find($id);
+        if ($user) {
+            $user->delete();
+        }
         return response()->json([
             "success" => true,
             "message" => "User deleted successfully.",
-            "data" => $users
         ]);
     }
 
-    public function roles($id){
-        $user = User::find($id);
-
-        $userRoles = [];
-        
-        foreach ($user->roles as $role) {
-            $userRoles[] = [
-                'name' => $role->name,
-            ];
-        }
-
-        //devolver los roles como JSON
-        return response()->json(['user_roles' => $userRoles]);
-    }
-
-
-    public function assignRoles(Request $request, $id)
+    public function addRole($userId,$roleId)
     {
-        // Validar la solicitud
-        $request->validate([
-            'role_ids' => 'required|array',
-        ]);
+        // Find the user by ID
+        $user = User::find($userId);
 
-        // Encontrar el usuario por su ID
-        $user = User::find($id);
+        // Find the role by ID
+        $role = Role::find($roleId);
 
-        // Asignar roles al usuario
-        foreach ($request->input('role_ids') as $role_id) {
-            $role = Role::find($role_id);
-            
-            if ($role) {
-                $user->roles()->attach($role->id);
-            }
+        // Check if the user and role are found
+        if ($user === null) {
+            return response()->json([
+                "success" => false,
+                "message" => "User not found.",
+                "message" => $userId,
+            ]);
         }
+
+        if ($role === null) {
+            return response()->json([
+                "success" => false,
+                "message" => "Role not found."
+        ]);
+    }
+
+        // Attach the role to the user
+        $user->roles()->attach($role);
+
         return response()->json([
-            'message' => 'Roles asignados correctamente'
+            "success" => true,
+            "message" => "Role added correctly."
+        ]);
+    }
+
+    public function removeRole($userId, $roleId)
+    {
+        $user = User::find($userId);
+        $role = Role::find($roleId);
+
+        // Check if the user and role are found
+        if ($user === null) {
+            return response()->json([
+                "success" => false,
+                "message" => "User not found.",
+                "message" => $userId,
+            ]);
+        }
+
+        if ($role === null) {
+            return response()->json([
+                "success" => false,
+                "message" => "Role not found."
+        ]);
+        }
+        $user->roles()->detach($role);
+
+        return response()->json([
+            "success" => true,
+            "message" => "Rol removed correctly"
+        ]);
+        
+    }
+
+    public function showRoles($userId)
+    {
+        $user = User::find($userId);
+        $roles = $user->roles;
+
+        // Check if the user and role are found
+        if ($user === null) {
+            return response()->json([
+                "success" => false,
+                "message" => "User not found.",
+                "message" => $userId,
+            ]);
+        }
+
+        return response()->json([
+            "success" => true,
+            "message" => "User roles correctly",
+            "data" => $roles
         ]);
     }
 }

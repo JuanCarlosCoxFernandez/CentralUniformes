@@ -1,37 +1,57 @@
-function MyButton2() {
-    return (
-      <button>
-        I'm a button2
-      </button>
-    );
-  }
-  
-//   export default function login() {
-//     return (
-//       <div>
-//         <h1>Welcome to my app</h1>
-//         <MyButton />
-//       </div>
-//     );
-//   }
+import React, { useState } from 'react';
+import './login.css';
+import { loginUser } from '../../services/employeeService';
+import {Button} from 'antd';
 
 function Login() {
-    return (
+  const [credentials, setCredentials] = useState({
+    email: '',
+    password: '',
+  });
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setCredentials({ ...credentials, [name]: value });
+  };
+
+  const login = (e) => {
+    e.preventDefault();
+
+    console.log(credentials.email, credentials.password);
+
+    loginUser(credentials);
+  };
+
+  const Cancel = (e) => {
+    e.preventDefault();
+
+    setCredentials({
+      email: '',
+      password: '',
+    });
+
+  };
+
+  return (
+    <div className='content-register'>
+      <h1>User Login</h1>
+      <img src='/img/logo.png' alt='LogoCentralUniformes'></img><br></br>
+      <form onSubmit={(e) => login(e)}>
         <div>
-        <h1>Welcome to my app</h1>
-      <button>
-        I'm a button
-      </button>
-      <MyButton2></MyButton2>
-      </div>
-    );
+          <label htmlFor="email">Email:</label><br></br>
+          <input type="email" id="email" name="email" value={credentials.email} onChange={handleInputChange} />
+        </div>
+        <br></br>
+        <div>
+          <label htmlFor="password">Password:</label><br></br>
+          <input type="password" id="password" name="password" value={credentials.password} onChange={handleInputChange} />
+        </div>
+        <br></br>
+        {/* <button type="submit" className='register'>Login</button> <button type="reset"  className='cancel'>Cancel</button> */}
+        <Button onClick={login} type="submit" className='ButtonUpdate'>Login</Button>&nbsp;
+        <Button onClick={Cancel} type="reset" className='ButtonDelete'>Cancel</Button>
+      </form>
+    </div>
+  );
   }
   export default Login;
-//   export default function login() {
-//     return (
-//       <div>
-//         <h1>Welcome to my app</h1>
-//         <MyButton />
-//       </div>
-//     );
-//   }

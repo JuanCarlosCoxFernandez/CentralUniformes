@@ -12,6 +12,7 @@ import RegisterView from './views/registerview/registerview';
 import EmployeesView from './views/employeesview/employeesview';
 import Home from './components/home/home';
 import { BrowserRouter, Route, Routes} from 'react-router-dom';
+import LoginView from './views/loginview/loginview';
 
 
 
@@ -21,6 +22,7 @@ function App() {
       <Routes>
         <Route path="/registerview" element={<RegisterView />} />
         <Route path="/employeesview" element={<EmployeesView />} />
+        <Route path="/loginview" element={<LoginView />} />
         {/* <Route path="/home" element={<EmployeesView />} /> */}
         <Route path="/" element={<Home prop='<img src="/logo.png"/>' />} />
       </Routes>
