@@ -1,10 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\API;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Role;
+use Validator;
 
 class RoleController extends Controller
 {
@@ -103,7 +104,6 @@ class RoleController extends Controller
       return response()->json([
         "success" => true,
         "message" => "Rol deleted successfully.",
-        "data" => $roles
       ]);
   }
 }

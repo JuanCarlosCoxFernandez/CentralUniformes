@@ -21,13 +21,15 @@ function Employees() {
 
   const handleDelete = (id) => {
     // Call the deleteEmployee function to delete an employee
-    deleteUser(id).then(() => {
-        // Update the list of employees (you may also want to display a success message)
-        setUsers(Users.filter((user) => user.id !== id));
-      })
-      .catch((error) => {
-        console.error('Error deleting employee:', error);
-      });
+    deleteUser(id);
+  };
+
+  const handleUpdate = (id) => {
+    console.log("update");
+  };
+
+  const handleRoles = (id) => {
+    console.log("roles");
   };
 
   return (
@@ -70,10 +72,10 @@ function Employees() {
                 <Button onClick={() => handleDelete(user.id)} type="primary" className='ButtonDelete'>Delete</Button>
                 &nbsp;&nbsp;  
                 {/* <button onClick={() => handleDelete(user.id)} className='ButtonUpdate'>Update</button> */}
-                <Button onClick={() => handleDelete(user.id)} type="primary" className='ButtonUpdate'>Update</Button>
+                <Button onClick={() => handleUpdate(user.id)} type="primary" className='ButtonUpdate'>Update</Button>
                 &nbsp;&nbsp;  
                 {/* <button onClick={() => handleDelete(user.id)} className='ButtonUpdate'>Update</button> */}
-                <Button onClick={() => handleDelete(user.id)} type="primary">Roles</Button>
+                <Button onClick={() => handleRoles(user.id)} type="primary">Roles</Button>
               </p> 
             </div>
           </div>
