@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\API\EmployeesController;
 use App\Http\Controllers\API\PassportAuthController;
 use App\Http\Controllers\API\RoleController;
+use App\Http\Controllers\API\ApplicationController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,8 +22,15 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::post('register', [PassportAuthController::class, 'register']);
-Route::post('login', [PassportAuthController::class, 'login']);
+// Route::middleware('auth:basic')->group(function () {
+//     Route::post('register', [PassportAuthController::class, 'register']);
+//     Route::post('login', [PassportAuthController::class, 'login']);
+// });
+
+    Route::post('register', [PassportAuthController::class, 'register']);
+    Route::post('login', [PassportAuthController::class, 'login']);
+
+    //Route::get('icon/{path}', [ApplicationController::class, 'getImage'])->where('path', '.*');
 
 Route::middleware('auth:api')->group(function () {
     // Rutas autenticadas para PassportAuthController
@@ -43,11 +51,15 @@ Route::middleware('auth:api')->group(function () {
     Route::put('roles/{id}', [RoleController::class, 'update']);
     Route::delete('roles/{id}', [RoleController::class, 'destroy']);
 
-    //Rutas autenticadas para AplicationController
-    Route::get('applications', [PassportAuthController::class, 'index']);
-    Route::get('applications/{id}', [PassportAuthController::class, 'show']);
-    Route::put('applications/{id}', [PassportAuthController::class, 'update']);
-    Route::delete('applications/{id}', [PassportAuthController::class, 'destroy']);
-    // Rutas para añadir y modificar roles de aplicaciones
 
+    //Rutas autenticadas para AplicationController
+    Route::get('applications', [ApplicationController::class, 'index']);
+    Route::get('applications/{id}', [ApplicationController::class, 'show']);
+    Route::post('applications', [ApplicationController::class, 'store']);
+    Route::put('applications/{id}', [ApplicationController::class, 'update']);
+    Route::delete('applications/{id}', [ApplicationController::class, 'destroy']);
+    // Rutas para añadir y modificar roles de aplicaciones
+    Route::get('/application/{appId}/add-role/{roleId}', [ApplicationController::class, 'addRole']);
+    Route::get('/application/{appId}/remove-role/{roleId}', [ApplicationController::class, 'removeRole']);
+    Route::get('/application/{appId}/show-roles', [ApplicationController::class, 'showRoles']);
 });

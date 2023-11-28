@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { getOptionsToken } from '../../services/employeeService';
+import { getOptionsToken } from './employeeService';
 
 const endpoint = 'http://localhost:8000/api'; // Servidor
 
@@ -9,7 +9,7 @@ export const getAllRoles = async () => {
         console.log('Service response:', response.data.data);
         return response.data.data;
       } catch (error) {
-        throw error;
+        console.error('Error al cargar los roles');
       }
 }
 
@@ -18,7 +18,7 @@ export const getRoleById = async (id) => {
       const response = await axios.get(`${endpoint}/roles/${id}`,getOptionsToken(localStorage.getItem("token")));
       return response.data;
     } catch (error) {
-      throw error;
+      console.error('Error al obtener el rol especifico');
     }
   };
 
@@ -29,7 +29,6 @@ export const getRoleById = async (id) => {
       console.log('Rol registrado:', response.data);
     } catch (error) {
       console.log('Error', error);
-      throw error;
     }
   }
 
@@ -38,7 +37,7 @@ export const getRoleById = async (id) => {
       const response = await axios.put(`${endpoint}/roles/${id}`,RolData,getOptionsToken(localStorage.getItem("token")));
       return response.data;
     } catch (error) {
-      throw error;
+      console.log('Error', error);
     }
   };
 
@@ -48,6 +47,8 @@ export const getRoleById = async (id) => {
       console.log("usuario eliminado");
       return response.data;
     } catch (error) {
-      throw error;
+      console.log('Error', error);
     }
   };
+
+  

@@ -113,3 +113,30 @@ export function setTokenOptions() {
 
   return options;
 };
+
+export async function addRoleUser(user,rol){
+  try {
+    const response = await axios.get(`${endpoint}/user/${user}/add-role/${rol}`,getOptionsToken(localStorage.getItem("token")));
+    console.log('Rol añadido al usuario',response.data);
+  } catch (error) {
+    console.error('Error al asignar rol:', error.response.data);
+  }
+};
+
+export async function loadRoleUser(user) {
+  try {
+    const response = await axios.get(`${endpoint}/user/${user}/show-roles`,getOptionsToken(localStorage.getItem("token")));
+    return response.data.data;
+  } catch (error) {
+    console.error('Error al mostrar los roles');
+  }
+};
+
+export async function removeRoleUser(user,rol) {
+  try {
+    const response = await axios.get(`${endpoint}/user/${user}/remove-role/${rol}`,getOptionsToken(localStorage.getItem("token")));
+    console.log('Rol eliminado del usuario',response.data);
+  } catch (error) {
+    console.error('Error al eliminar el rol del usuario');
+  }
+};
