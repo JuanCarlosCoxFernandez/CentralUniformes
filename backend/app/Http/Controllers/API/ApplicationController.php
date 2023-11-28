@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\API;
 
-use Illuminate\Support\Facades\Storage;
+
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Application;
@@ -46,9 +46,46 @@ class ApplicationController extends Controller
       }
       return response()->json([
         "success" => true,
-        "message" => "Rol retrieved successfully.",
+        "message" => "Application retrieved successfully.",
         "data" => $applications
       ]);
+  }
+
+  public function update(Request $request, $id)
+  {
+    $input = $request->all();
+      $validator = Validator::make($input, [
+        'URL' => 'required',
+        'icon' => 'required',
+      ]);
+      if ($validator->fails()) {
+        return $this->sendError('Validation Error.', $validator->errors());
+      }
+      $image = $request->file('icon');
+      $imageName = time().'.'.$image->extension();
+      $imagePath = public_path(). '/images';
+
+      $application->URL = $input['URL'];
+      $application->icon = $imageName;
+      $applications->save();
+
+      return response()->json([
+        "success" => true,
+        "message" => "Application updated successfully.",
+        "data" => $applications
+      ]);
+  }
+
+  public function destroy($id)
+  {
+    $applications = Application::find($id);
+
+    if (!is_null($applications)) {
+      $applications->delete();
+      return response()->json(['message' => 'Successfully deleted']);
+      } else {
+        return response()->json(['error' => 'Resource not found'],404);
+        }
   }
 
 }
