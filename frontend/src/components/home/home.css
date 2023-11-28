@@ -1,0 +1,33 @@
+.content-home {
+
+    padding: 40px;
+    width: 100%;
+    padding-left: 90px;
+    text-align: center;
+    align-content: center;
+   }
+
+
+   .left-home-content,
+   .right-home-content {
+    height: 70%;
+     width: 50%;
+     box-sizing: border-box; /* Considera el padding y el borde dentro del ancho */
+     float: left; /* Hace que los elementos se sitúen uno al lado del otro */
+     
+   }
+   
+   /* Limpia el flotador después de los elementos flotantes */
+   .clearfix::after {
+     content: "";
+     display: table;
+     clear: both;
+   }
+
+   .right-content {
+    text-align: right !important;
+    
+   }
+.slick-dots button{
+    background-color: #000 !important;
+}

@@ -6,7 +6,7 @@ import './components/header/header.css';
 import './components/home/home.css';
 import RegisterView from './views/registerview/registerview';
 import EmployeesView from './views/employeesview/employeesview';
-import Home from './components/home/home';
+import HomeView from './views/homeview/homeview';
 import { BrowserRouter, Route, Routes} from 'react-router-dom';
 import LoginView from './views/loginview/loginview';
 import RolesView from './views/rolview/rolview';
@@ -23,7 +23,7 @@ function App() {
         <Route path="/rolesview" element={<RolesView />} />
         <Route path="/applicationsview" element={<ApplicationView />} />
         {/* <Route path="/home" element={<EmployeesView />} /> */}
-        <Route path="/" element={<Home prop='<img src="/logo.png"/>' />} />
+        <Route path="/" element={<HomeView />} />
       </Routes>
     </BrowserRouter>
 

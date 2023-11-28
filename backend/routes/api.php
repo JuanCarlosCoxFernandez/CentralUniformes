@@ -6,6 +6,7 @@ use App\Http\Controllers\API\EmployeesController;
 use App\Http\Controllers\API\PassportAuthController;
 use App\Http\Controllers\API\RoleController;
 use App\Http\Controllers\API\ApplicationController;
+use App\Http\Controllers\API\NewController;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,7 +31,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     Route::post('register', [PassportAuthController::class, 'register']);
     Route::post('login', [PassportAuthController::class, 'login']);
 
-    //Route::get('icon/{path}', [ApplicationController::class, 'getImage'])->where('path', '.*');
+    //Ruta pagina principal
+    Route::get('news', [NewController::class,'index']);
 
 Route::middleware('auth:api')->group(function () {
     // Rutas autenticadas para PassportAuthController
@@ -62,4 +64,11 @@ Route::middleware('auth:api')->group(function () {
     Route::get('/application/{appId}/add-role/{roleId}', [ApplicationController::class, 'addRole']);
     Route::get('/application/{appId}/remove-role/{roleId}', [ApplicationController::class, 'removeRole']);
     Route::get('/application/{appId}/show-roles', [ApplicationController::class, 'showRoles']);
+
+
+    //Rutas autenticadas para NewController
+    Route::get('news/{id}', [NewController::class, 'show']);
+    Route::post('news', [NewController::class, 'store']);
+    Route::put('news/{id}', [NewController::class, 'update']);
+    Route::delete('news/{id}', [NewController::class, 'destroy']);
 });
