@@ -34,15 +34,6 @@ function Employees() {
 
   return (
   <div className='content-employees'>
-    {/* <div className='customHeader'>
-     <div>
-     <h3>Name:</h3>
-      </div>
-      <div className='title-space'>
-      <h3>Email:</h3>
-      </div>
-      
-    </div> */}
 
     <div className='block'>
      <div className='list-employees'>

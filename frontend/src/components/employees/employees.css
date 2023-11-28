@@ -1,22 +1,3 @@
-/* .employee {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-   }
-   
-   .employee-name, .employee-email, .employee-rol {
-    flex: 1;
-    margin-right: 10px;
-   }
-   
-   .employee-buttons {
-    display: flex;
-    justify-content: flex-end;
-   } */
 
    .content-employees {
     padding: 40px;
