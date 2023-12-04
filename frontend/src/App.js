@@ -12,7 +12,8 @@ import LoginView from './views/loginview/loginview';
 import RolesView from './views/rolview/rolview';
 import ApplicationView from './views/applicationview/applicationview';
 import NewsView from './views/newsview/newsview';
-
+import UserRoles from './views/userRolview/userRolview';
+import AppRoles from './views/appRolview/appRolview';
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
         <Route path="/rolesview" element={<RolesView />} />
         <Route path="/applicationsview" element={<ApplicationView />} />
         <Route path="/newsview" element={<NewsView />} />
+        <Route path="/userRolview" element={<UserRoles />} />
+        <Route path="/appRolview" element={<AppRoles />} />
         {/* <Route path="/home" element={<EmployeesView />} /> */}
         <Route path="/" element={<HomeView />} />
       </Routes>

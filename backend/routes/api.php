@@ -23,16 +23,12 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-// Route::middleware('auth:basic')->group(function () {
-//     Route::post('register', [PassportAuthController::class, 'register']);
-//     Route::post('login', [PassportAuthController::class, 'login']);
-// });
+//Rutas de login y register de usuario
+Route::post('register', [PassportAuthController::class, 'register']);
+Route::post('login', [PassportAuthController::class, 'login']);
 
-    Route::post('register', [PassportAuthController::class, 'register']);
-    Route::post('login', [PassportAuthController::class, 'login']);
-
-    //Ruta pagina principal
-    Route::get('news', [NewController::class,'index']);
+//Ruta pagina principal
+Route::get('news', [NewController::class,'index']);
 
 Route::middleware('auth:api')->group(function () {
     // Rutas autenticadas para PassportAuthController
