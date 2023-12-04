@@ -3,10 +3,13 @@ import React, { useEffect, useState } from 'react';
 import { getAllUsers, deleteUser } from '../../services/employeeService';
 import './employees.css';
 import {Button, Popover} from 'antd';
+import { Navigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Employees() {
   const [Users, setUsers] = useState([]);
   const [open, setOpen] = useState(false);
+
 
   const hide = () => {
     setOpen(false);
@@ -36,8 +39,11 @@ function Employees() {
     console.log("update");
   };
 
+  const navigate = useNavigate();
   const handleRoles = (id) => {
-    console.log("roles");
+    localStorage.setItem('id', id);
+    // return <Navigate to="/userRolview" replace={true} />;
+    navigate("/userRolview");
   };
 
   return (
