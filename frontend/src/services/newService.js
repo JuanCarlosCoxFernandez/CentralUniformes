@@ -4,6 +4,7 @@ import { getOptionsToken } from './employeeService';
 const endpoint = 'http://localhost:8000/api'; // Servidor
 
 
+
 export const getAllNew = async () => {
     try {
         const response = await axios.get(`${endpoint}/news`);
@@ -24,9 +25,14 @@ export const getNewById = async (id) => {
   };
 
   export async function createNew(news) {
+    console.log(news);
     console.log(news.title);
+    const body= new FormData();
+    body.append('title', news.title);
+    body.append('content', news.content);
+    body.append('image', news.image);
     try {
-      const response = await axios.post(`${endpoint}/news`, news, getOptionsToken(localStorage.getItem("token")));
+      const response = await axios.post(`${endpoint}/news`, body, getOptionsToken(localStorage.getItem("token")));
       console.log('noticia registrada:', response.data);
     } catch (error) {
       console.log('Error', error);
@@ -34,8 +40,13 @@ export const getNewById = async (id) => {
   }
 
   export const updateNew = async (id, NewData) => {
+
+    const body= new FormData();
+    body.append('title', NewData.title);
+    body.append('content', NewData.content);
+    body.append('image', NewData.image)
     try {
-      const response = await axios.put(`${endpoint}/news/${id}`,NewData,getOptionsToken(localStorage.getItem("token")));
+      const response = await axios.post(`${endpoint}/news/${id}`,body,getOptionsToken(localStorage.getItem("token")));
       return response.data;
     } catch (error) {
       console.log('Error', error);

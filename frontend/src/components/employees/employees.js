@@ -2,10 +2,18 @@ import React, { useEffect, useState } from 'react';
 //import axios from 'axios';
 import { getAllUsers, deleteUser } from '../../services/employeeService';
 import './employees.css';
-import {Button} from 'antd';
+import {Button, Popover} from 'antd';
 
 function Employees() {
   const [Users, setUsers] = useState([]);
+  const [open, setOpen] = useState(false);
+
+  const hide = () => {
+    setOpen(false);
+  };
+  const handleOpenChange = (newOpen) => {
+    setOpen(newOpen);
+  }
 
   useEffect(() => {
     // Llama a la función de servicio para obtener empleados cuando el componente se monta
@@ -34,7 +42,6 @@ function Employees() {
 
   return (
   <div className='content-employees'>
-
     <div className='block'>
      <div className='list-employees'>
      <h3>Name:</h3>
@@ -43,7 +50,7 @@ function Employees() {
       <h3>Email:</h3>
       </div>
       <div className='list-employees'>
-      <h3></h3>
+        <h3></h3>
       </div>
       
     </div>

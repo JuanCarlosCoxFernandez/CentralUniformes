@@ -30,25 +30,33 @@ function Home(props) {
 
 
     return (
-        <Carousel afterChange={onChange}  className='content-home'>
+        // main container
+        <div className='content-home'>
+        <Carousel afterChange={onChange}>
             {Array.isArray(News) &&
                 News.map((news) => (
+                    // Container
                     <div key={news.id} style={{ marginBottom: '20px'}}>
-                        <div>
+                        <div className='hometitle'>
                             <h2>{news.title}</h2>
                         </div >
                         <br></br>
-                        <div>
-                            <div className='left-home-content left-content'>
-                                <p>{news.content}</p>
+                        {/* carrousel container */}
+                        <div className='homeContainer'>
+                            {/* right */}
+                            <div className='half-home-content cont1'>
+                                <textarea  readOnly className='cont1-text'>{news.content}</textarea>
                             </div>
-                            <div className='right-home-content right-content'>
-                            <img alt='icon1' src={`http://localhost:8000/images/${news.image}`}></img>
+                            {/* left */}
+                            <div className='half-home-content cont2'>
+                                <img alt='icon1' src={`http://localhost:8000/images/${news.image}`} className='image-home'></img>
                             </div>
-                        </div >
+                        </div > 
+                        <br/>{/* pone abajo las flechas del carrousel */}
                     </div>
                 ))}
         </Carousel>
+        </div>
     )
 }
 
