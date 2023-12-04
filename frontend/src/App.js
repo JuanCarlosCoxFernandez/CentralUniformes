@@ -11,6 +11,7 @@ import { BrowserRouter, Route, Routes} from 'react-router-dom';
 import LoginView from './views/loginview/loginview';
 import RolesView from './views/rolview/rolview';
 import ApplicationView from './views/applicationview/applicationview';
+import NewsView from './views/newsview/newsview';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/loginview" element={<LoginView />} />
         <Route path="/rolesview" element={<RolesView />} />
         <Route path="/applicationsview" element={<ApplicationView />} />
+        <Route path="/newsview" element={<NewsView />} />
         {/* <Route path="/home" element={<EmployeesView />} /> */}
         <Route path="/" element={<HomeView />} />
       </Routes>

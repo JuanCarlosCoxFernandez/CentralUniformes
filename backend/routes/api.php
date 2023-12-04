@@ -69,6 +69,6 @@ Route::middleware('auth:api')->group(function () {
     //Rutas autenticadas para NewController
     Route::get('news/{id}', [NewController::class, 'show']);
     Route::post('news', [NewController::class, 'store']);
-    Route::put('news/{id}', [NewController::class, 'update']);
+    Route::post('news/{id}', [NewController::class, 'update']);
     Route::delete('news/{id}', [NewController::class, 'destroy']);
 });
