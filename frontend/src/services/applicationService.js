@@ -24,8 +24,11 @@ export const getApplicationById = async (id) => {
 
   export async function createApplication(app) {
     console.log(app.URL);
+    const body= new FormData();
+    body.append('URL', app.URL);
+    body.append('icon', app.icon)
     try {
-      const response = await axios.post(`${endpoint}/applications`, app, getOptionsToken(localStorage.getItem("token")));
+      const response = await axios.post(`${endpoint}/applications`, body, getOptionsToken(localStorage.getItem("token")));
       console.log('Aplicacion registrada:', response.data);
     } catch (error) {
       console.log('Error', error);
@@ -33,8 +36,11 @@ export const getApplicationById = async (id) => {
   }
 
   export const updateApplication = async (id, ApplicationData) => {
+    const body= new FormData();
+    body.append('URL', ApplicationData.URL);
+    body.append('icon', ApplicationData.icon)
     try {
-      const response = await axios.put(`${endpoint}/applications/${id}`,ApplicationData,getOptionsToken(localStorage.getItem("token")));
+      const response = await axios.post(`${endpoint}/applications/${id}`,body,getOptionsToken(localStorage.getItem("token")));
       return response.data;
     } catch (error) {
       console.log('Error', error);

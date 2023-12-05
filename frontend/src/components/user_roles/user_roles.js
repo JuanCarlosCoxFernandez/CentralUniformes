@@ -11,6 +11,11 @@ function User_roles() {
         rol_id: '',
     });
 
+    const [newR, setNewR] = useState({
+        user_id: localStorage.getItem('id'),
+        rol_id: '',
+    });
+
     const [Roles, setRoles] = useState([]);
 
     const [openC, setOpenC] = useState(false);
@@ -23,7 +28,7 @@ function User_roles() {
     };
 
     useEffect(() => {
-        getAllRoles().then((dataR)=>{
+        getAllRoles().then((dataR) => {
             setRoles(dataR);
             console.log("Roles obtenidos");
 
@@ -43,12 +48,35 @@ function User_roles() {
             });
     }, []);
 
-    const handleCreate = (rol_id) => {
-        addRoleUser(UsersR.user_id, rol_id);
+    const handleCreate = async () => {
+        let userId = localStorage.getItem('id');
+        let rolId = newR.rol_id;
+        console.log(rolId);
+        try {
+            console.log("Datos del formulario:", newR);
+            console.log(rolId);
+            // Llama a la función para crear una nueva noticia en el servidor
+            addRoleUser(userId,rolId);
+
+
+            // Reinicia los valores del formulario
+            setNewR({
+                user_id: localStorage.getItem('id'),
+                rol_id: '',
+            });
+
+            // Cierra el formulario
+
+
+        } catch (error) {
+            console.error('Error al crear la relacion de roles:', error);
+        }
     };
 
     const handleDelete = (rol_id) => {
-        removeRoleUser(UsersR.user_id, rol_id);
+        let userId = localStorage.getItem('id');
+        console.log(userId);
+        removeRoleUser(userId, rol_id);
     };
 
     const generalForm = (
@@ -58,8 +86,8 @@ function User_roles() {
                 <input
                     type="text"
                     id="rol"
-                    value={UsersR.rol_id}
-                    onChange={(e) => setUsersR({ ...UsersR, rol_id: e.target.value })}
+                    value={newR.rol_id}
+                    onChange={(e) => setNewR({ ...newR, rol_id: e.target.value })}
                 />
             </div>
             <div><br />
@@ -117,7 +145,7 @@ function User_roles() {
                         <div className='list-user_roles'>
                             <p className='borders'>Rol: {rol.name}</p>
                         </div >
-                        
+
                     </div>
 
 

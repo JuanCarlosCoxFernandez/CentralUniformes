@@ -68,8 +68,12 @@ export async function register(user) {
 
 // Función para actualizar un usuario por ID
 export const updateUser = async (id, employeeData) => {
+  const body= new FormData();
+    body.append('name', employeeData.name);
+    body.append('email', employeeData.email);
+    body.append('password', employeeData.password);
   try {
-    const response = await axios.put(`${endpoint}/users/${id}`, employeeData);
+    const response = await axios.put(`${endpoint}/users/${id}`, body, getOptionsToken(localStorage.getItem("token")));
     return response.data;
   } catch (error) {
     throw error;
