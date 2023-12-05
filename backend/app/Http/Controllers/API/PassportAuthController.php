@@ -9,44 +9,109 @@ use Illuminate\Support\Facades\Auth;
 use App\Models\User;
 use App\Models\Role;
 use Illuminate\Support\Facades\Log;
+use \Illuminate\Support\Str;
+use Illuminate\Http\JsonResponse;
 use Validator;
 
 class PassportAuthController extends Controller
 {
-    public function login(Request $request)
+    public function sendResponse($result, $message)
     {
-        $input = $request->all();
+    	$response = [
+            'success' => true,
+            'data'    => $result,
+            'message' => $message,
+        ];
 
-        Auth::attempt($input);
 
-        $user = Auth::user();
+        return response()->json($response, 200);
+    }
 
-        $token = $user->createToken('Laravel10PassportAuth')->accessToken;
-        return Response(['status' => 200,'token' => $token],200);
+
+    /**
+     * return error response.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function sendError($error, $errorMessages = [], $code = 404)
+    {
+    	$response = [
+            'success' => false,
+            'message' => $error,
+        ];
+
+
+        if(!empty($errorMessages)){
+            $response['data'] = $errorMessages;
+        }
+
+
+        return response()->json($response, $code);
+    }
+
+    private function extractBasicAuthData(Request $request)
+    {
+        $header = $request->header('Authorization');
+        if(!Str::startsWith($header, 'Basic ')){
+            return null;
+        }
+
+        $encoded = explode('Basic ', $header);
+        $decoded = base64_decode($encoded[1]);
+        list($email, $password) = explode(":", $decoded);
+
+        $dataDecoded = $request->all(); //only name should be there
+        $dataDecoded['email'] = $email;
+        $dataDecoded['password'] = $password;
+
+        return $dataDecoded;
+    }
+
+
+    public function login(Request $request): JsonResponse
+    {
+        $dataDecoded = $this->extractBasicAuthData($request);
+        if($dataDecoded == null) return $this->sendError('Not valid Basic Auth');
+
+        if(Auth::attempt(['email' => $dataDecoded['email'], 'password' => $dataDecoded['password']])){ 
+            $user = Auth::user(); 
+            $success['token'] =  $user->createToken('MyApp')-> accessToken; 
+            $success['name'] =  $user->name;
+   
+            return $this->sendResponse($success, 'User login successfully.');
+        } 
+        else{ 
+            return $this->sendError('Unauthorised.', ['error'=>'Unauthorised']);
+        } 
     }
 
     public function register(Request $request)
     {
-        $request->validate([
-            'name' => 'required|min:4',
+        $dataDecoded = $this->extractBasicAuthData($request);
+
+        if($dataDecoded == null) return $this->sendError('Not valid Basic Auth');
+
+        $validator = Validator::make($dataDecoded, [
+            'name' => 'required',
             'email' => 'required|email',
-            'password' => 'required|min:8',
+            'password' => 'required',
         ]);
+     
+        if($validator->fails()){
+            return $this->sendError('Validation Error.', $validator->errors());       
+        }
+     
+        $input = $dataDecoded;
+        $input['password'] = bcrypt($input['password']);
 
-        $user = User::create([
-            'name' => $request->name,
-            'email' => $request->email,
-            'password' => bcrypt($request->password),
-        ]);
-
-        // Autenticar al nuevo usuario
-        Auth::login($user);
-
-        // Generar token de acceso
-        $token = $user->createToken('Laravel10PassportAuth')->accessToken;
-
-        // Devolver la respuesta con el token
-        return response(['status' => 200, 'token' => $token], 200);
+        try {
+            $user = User::create($input);
+            $success['token'] =  $user->createToken('MyApp')->accessToken;
+            $success['name'] =  $user->name;
+            return $this->sendResponse($success, 'User register successfully.');
+        } catch (\Illuminate\Database\QueryException $exception) {
+            return $this->sendError('User Register Error.', $exception->errorInfo);
+        }
     }
 
     public function getUserDetail()

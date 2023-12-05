@@ -53,12 +53,14 @@ export const getUserById = async (id) => {
 // Función para crear un nuevo usuario
 export async function register(user) {
   console.log(user.name,user.email,user.password);
+  const body= new FormData();
+    body.append('name', user.name);
   try {
-    const response = await axios.post(`${endpoint}/register`,user);
-    console.log('Usuario registrado:', response.data.token);
+    const response = await axios.post(`${endpoint}/register`,body,getOptionsAuth(user));
+    console.log('Usuario registrado:', response.data.data.token);
 
     if (response.user) {
-      localStorage.setItem('token', response.data.token);
+      localStorage.setItem('token', response.data.data.token);
     }
   } catch (error) {
     console.log('Error', error);
@@ -95,11 +97,11 @@ export const deleteUser = async (id) => {
 export async function loginUser(user) {
   console.log(user.email);
   try {
-    const response = await axios.post(`${endpoint}/login`,user);
+    const response = await axios.post(`${endpoint}/login`,null,getOptionsAuth(user));
     // Si la solicitud fue exitosa, actualizamos el estado para indicar que el usuario está conectado.
-    console.log('Usuario autenticado:', response.data.token);
-    localStorage.setItem("token", response.data.token);
-    return response.data.token;
+    console.log('Usuario autenticado:', response.data.data.token);
+    localStorage.setItem("token", response.data.data.token);
+    return response.data.data.token;
   } catch (error) {
     // Si hay un error en la autenticación, puedes manejarlo aquí.
     console.error('Error de autenticación:', error.response.data);
