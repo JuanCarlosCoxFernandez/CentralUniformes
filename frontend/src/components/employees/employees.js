@@ -67,34 +67,39 @@ function Employees() {
   const handleUpdate = async (user) => {
     console.log(user.name);
     if (!newUser.name) {
-      newUser.name = user.name
+      newUser.name = ""
     }
     if (!newUser.email) {
-      newUser.email = user.email
+      newUser.email = ""
     }
     if (!newUser.password) {
-      newUser.password = user.password
+      newUser.password = ""
     }
     try {
+      console.log(user.name);
+      setNewUser((prevUser) => ({
+        ...prevUser,
+        name: prevUser.name || user.name,
+        email: prevUser.email || user.email,
+        password: prevUser.password || user.password,
+      }));
+  
       console.log("Datos del formulario:", newUser);
-
       await updateUser(user.id, newUser);
       console.log("datos obtenidos");
-
+  
       // Reinicia los valores del formulario
       setNewUser({
         name: '',
         email: '',
         password: '',
       });
-
+  
       const updatedApp = await getAllUsers();
       setUsers(updatedApp);
-
-
     } catch (error) {
       console.error('Error al actualizar el usuario:', error);
-    };
+    }
   };
 
   const navigate = useNavigate();
@@ -121,7 +126,7 @@ function Employees() {
           type="email"
           id="email"
           placeholder={user.email}
-          onChange={(e) => setNewUser({ ...newUser, email: e.target.files[0] })}
+          onChange={(e) => setNewUser({ ...newUser, email: e.target.value })}
         />
       </div>
       <div>
@@ -130,7 +135,7 @@ function Employees() {
           type="password"
           id="password"
           placeholder={user.password}
-          onChange={(e) => setNewUser({ ...newUser, password: e.target.files[0] })}
+          onChange={(e) => setNewUser({ ...newUser, password: e.target.value })}
         />
       </div>
       <div><br />

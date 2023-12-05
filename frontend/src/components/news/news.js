@@ -73,13 +73,13 @@ function News() {
   const handleUpdate = async (news) => {
     console.log(news.title);
     if (!newNews.title) {
-      newNews.title = news.title
+      newNews.title = ""
     }
     if (!newNews.content) {
-      newNews.content = news.content
+      newNews.content = ""
     }
     if (!newNews.image) {
-      newNews.image = news.image
+      newNews.image = ""
     }
     try {
       console.log("Datos del formulario:", newNews);

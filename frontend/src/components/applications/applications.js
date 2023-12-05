@@ -75,7 +75,7 @@ function Applications() {
         if (!newApp.URL) {
             newApp.URL = app.URL
         }
-        if (!newApp.image) {
+        if (!newApp.icon) {
             newApp.icon = app.icon
         }
         try {
