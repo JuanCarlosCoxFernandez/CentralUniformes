@@ -65,7 +65,7 @@ class ApplicationController extends Controller
 
       $application = Application::find($id);
 
-      if (!$napplication) {
+      if (!$application) {
         return response()->json(['error' => 'Applicacion no encontrada'], 404);
     }
       if ($request->hasFile('icon')) {

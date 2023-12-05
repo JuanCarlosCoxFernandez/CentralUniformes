@@ -56,15 +56,6 @@ class NewController extends Controller
     public function update(Request $request, String $id){
         // Validación de la solicitud
         $input = $request->all();
-        $validator = Validator::make($input, [
-            'title' => 'required',
-            'content' => 'required',
-            'image' => 'required',
-        ]);
-
-        if ($validator->fails()) {
-            return response()->json(['error' => $validator->errors()], 400);
-        }
 
         // Encuentra la noticia por ID
         $new = HomeNew::find($id);
@@ -97,11 +88,13 @@ class NewController extends Controller
             ]);
         }
 
-        // $new->save();
-        $new->update([
-            'title' => $request->title,
-            'content' => $request->content,
-        ]);
+        if ($input['title']){
+            $new->title = $input['title'];
+        }
+        if ($input['content']){
+            $new->content = $input['content'];
+        }
+        $new->save();
 
         return response()->json([
             "success" => true,

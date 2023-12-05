@@ -161,18 +161,16 @@ class PassportAuthController extends Controller
     public function update(Request $request, $id)
     {
         $input = $request->all();
-        $validator = Validator::make($input, [
-        'name' => 'required',
-        'email' => 'required',
-        'password' => 'required'
-        ]);
-        if ($validator->fails()) {
-        return $this->sendError('Validation Error.', $validator->errors());
-        }
         $users = User::find($id);
-        $users->name = $input['name'];
-        $users->email = $input['email'];
-        $users->password = $input['password'];
+        if ($input['name']){
+            $users->name = $input['name'];
+        }
+        if ($input['email']){
+            $users->email = $input['email'];
+        }
+        if ($input['password']){
+            $users->password = $input['password'] = bcrypt($input['password']);
+        }
         // $product->save();
         $users->save();
         return response()->json([
