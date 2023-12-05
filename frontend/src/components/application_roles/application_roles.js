@@ -11,6 +11,11 @@ function Application_roles() {
         rol_id: '',
     });
 
+    const [newR, setNewR] = useState({
+        app_id: localStorage.getItem('id'),
+        rol_id: '',
+    });
+
     const [Roles, setRoles] = useState([]);
 
     const [openC, setOpenC] = useState(false);
@@ -43,12 +48,34 @@ function Application_roles() {
             });
     }, []);
 
-    const handleCreate = (rol_id) => {
-        addRoleApplication(AppR.app_id, rol_id);
+    const handleCreate = async() => {
+        let appId = localStorage.getItem('id');
+        let rolId = newR.rol_id;
+        console.log(rolId);
+        try {
+            console.log("Datos del formulario:", newR);
+            console.log(rolId);
+            // Llama a la función para crear una nueva noticia en el servidor
+            addRoleApplication(appId,rolId);
+
+
+            // Reinicia los valores del formulario
+            setNewR({
+                app_id: localStorage.getItem('id'),
+                rol_id: '',
+            });
+
+            // Cierra el formulario
+
+
+        } catch (error) {
+            console.error('Error al crear la relacion de roles:', error);
+        }
     };
 
     const handleDelete = (rol_id) => {
-        removeRoleApplication(AppR.user_id, rol_id);
+        let appId = localStorage.getItem('id');
+        removeRoleApplication(appId, rol_id);
     };
 
     const generalForm = (
@@ -58,8 +85,8 @@ function Application_roles() {
                 <input
                     type="text"
                     id="rol"
-                    value={AppR.rol_id}
-                    onChange={(e) => setAppR({ ...AppR, rol_id: e.target.value })}
+                    value={newR.rol_id}
+                    onChange={(e) => setNewR({ ...newR, rol_id: e.target.value })}
                 />
             </div>
             <div><br />

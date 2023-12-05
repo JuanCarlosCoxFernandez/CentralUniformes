@@ -33,6 +33,8 @@ export const getRoleById = async (id) => {
   }
 
   export const updateRol = async (id, RolData) => {
+    const body= new FormData();
+    body.append('name', RolData.name);
     try {
       const response = await axios.put(`${endpoint}/roles/${id}`,RolData,getOptionsToken(localStorage.getItem("token")));
       return response.data;
@@ -44,7 +46,7 @@ export const getRoleById = async (id) => {
   export const deleteRol = async (id) => {
     try {
       const response = await axios.delete(`${endpoint}/roles/${id}`,getOptionsToken(localStorage.getItem("token")));
-      console.log("usuario eliminado");
+      console.log("rol eliminado");
       return response.data;
     } catch (error) {
       console.log('Error', error);

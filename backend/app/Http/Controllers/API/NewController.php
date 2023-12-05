@@ -54,10 +54,6 @@ class NewController extends Controller
     }
 
     public function update(Request $request, String $id){
-        error_log("holllllllllllllllllllllaaaaaaaaaaaaaaaaaaaaaa");
-        // error_log($id);
-        Log::info('Adiossssssssssssssssssssssss:', $request->all());
-
         // Validación de la solicitud
         $input = $request->all();
         $validator = Validator::make($input, [

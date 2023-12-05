@@ -54,7 +54,7 @@ Route::middleware('auth:api')->group(function () {
     Route::get('applications', [ApplicationController::class, 'index']);
     Route::get('applications/{id}', [ApplicationController::class, 'show']);
     Route::post('applications', [ApplicationController::class, 'store']);
-    Route::put('applications/{id}', [ApplicationController::class, 'update']);
+    Route::post('applications/{id}', [ApplicationController::class, 'update']);
     Route::delete('applications/{id}', [ApplicationController::class, 'destroy']);
     // Rutas para añadir y modificar roles de aplicaciones
     Route::get('/application/{appId}/add-role/{roleId}', [ApplicationController::class, 'addRole']);

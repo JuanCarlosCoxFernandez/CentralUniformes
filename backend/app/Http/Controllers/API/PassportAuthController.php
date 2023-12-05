@@ -104,6 +104,7 @@ class PassportAuthController extends Controller
         if ($validator->fails()) {
         return $this->sendError('Validation Error.', $validator->errors());
         }
+        $users = User::find($id);
         $users->name = $input['name'];
         $users->email = $input['email'];
         $users->password = $input['password'];
@@ -148,7 +149,8 @@ class PassportAuthController extends Controller
         if ($role === null) {
             return response()->json([
                 "success" => false,
-                "message" => "Role not found."
+                "message" => "Role not found.",
+                "message" => $roleId,
         ]);
     }
 

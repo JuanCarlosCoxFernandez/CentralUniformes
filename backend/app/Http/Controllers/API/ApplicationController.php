@@ -6,6 +6,7 @@ namespace App\Http\Controllers\API;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Application;
+use App\Models\Role;
 use Validator;
 
 class ApplicationController extends Controller
@@ -51,7 +52,7 @@ class ApplicationController extends Controller
       ]);
   }
 
-  public function update(Request $request, $id)
+  public function update(Request $request,String $id)
   {
     $input = $request->all();
       $validator = Validator::make($input, [
@@ -61,19 +62,40 @@ class ApplicationController extends Controller
       if ($validator->fails()) {
         return $this->sendError('Validation Error.', $validator->errors());
       }
-      $image = $request->file('icon');
-      $imageName = time().'.'.$image->extension();
-      $imagePath = public_path(). '/images';
 
-      $application->URL = $input['URL'];
-      $application->icon = $imageName;
-      $applications->save();
+      $application = Application::find($id);
 
-      return response()->json([
-        "success" => true,
-        "message" => "Application updated successfully.",
-        "data" => $applications
-      ]);
+      if (!$napplication) {
+        return response()->json(['error' => 'Applicacion no encontrada'], 404);
+    }
+      if ($request->hasFile('icon')) {
+        // Elimina la imagen existente si hay una
+        if ($application->image) {
+            unlink(public_path('images/' . $application->icon));
+        }
+
+        // Sube la nueva imagen
+        $image = $request->file('icon');
+        $imageName = time().'.'.$image->extension();
+        $imagePath = public_path(). '/images';
+        $image->move($imagePath, $imageName);
+        
+        // Actualiza el nombre de la imagen en la base de datos
+        // $new->image = $imageName;
+        $application->update([
+            'icon' => $imageName,
+        ]);
+    }
+
+    $application->update([
+      'URL' => $request->URL,
+    ]);
+
+    return response()->json([
+      "success" => true,
+      "message" => "New updated successfully.",
+      "data" => $application
+    ]);
   }
 
   public function destroy($id)
@@ -87,5 +109,38 @@ class ApplicationController extends Controller
         return response()->json(['error' => 'Resource not found'],404);
         }
   }
+
+  public function addRole($appId,$roleId)
+    {
+        // Find the app by ID
+        $app = Application::find($appId);
+
+        // Find the role by ID
+        $role = Role::find($roleId);
+
+        // Check if the user and role are found
+        if ($app === null) {
+            return response()->json([
+                "success" => false,
+                "message" => "Application not found.",
+                "message" => $appId,
+            ]);
+        }
+
+        if ($role === null) {
+            return response()->json([
+                "success" => false,
+                "message" => "Role not found."
+        ]);
+    }
+
+        // Attach the role to the user
+        $app->roles()->attach($role);
+
+        return response()->json([
+            "success" => true,
+            "message" => "Role added correctly."
+        ]);
+    }
 
 }
