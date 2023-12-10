@@ -1,0 +1,40 @@
+.content-roles {
+    padding: 40px;
+    width: 80%;
+    padding-left: 90px;
+    text-align: left;
+    
+   }
+   
+   .list-roles {
+    flex:1;
+    text-align: left;
+    border-top:4px solid lightgray;
+   }
+
+   .email-space {
+    text-align: center !important;
+   }
+   .email-align {
+    text-align: left !important;
+   }
+
+   .block {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+   }
+
+   .borders {
+    margin-top: 10%;
+    margin-bottom: 5%;
+   }
+
+   .ButtonDelete {
+    background-color: red;
+   }
+
+   .ButtonUpdate {
+    background-color:#6EC14E;
+   }

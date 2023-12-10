@@ -1,20 +1,19 @@
 //import logo from './logo.svg';
 import './App.css';
-//import Header from './components/header/header';
-//import Login from './components/login/login';
-//import Menu from './components/menu/menu';
+
 import './components/menu/menu.css';
 import './components/header/header.css';
 import './components/home/home.css';
-//import Employees from './components/employees/employees';
-//import Register from './components/register/register';
 import RegisterView from './views/registerview/registerview';
 import EmployeesView from './views/employeesview/employeesview';
-import Home from './components/home/home';
+import HomeView from './views/homeview/homeview';
 import { BrowserRouter, Route, Routes} from 'react-router-dom';
 import LoginView from './views/loginview/loginview';
-
-
+import RolesView from './views/rolview/rolview';
+import ApplicationView from './views/applicationview/applicationview';
+import NewsView from './views/newsview/newsview';
+import UserRoles from './views/userRolview/userRolview';
+import AppRoles from './views/appRolview/appRolview';
 
 function App() {
   return (
@@ -23,8 +22,13 @@ function App() {
         <Route path="/registerview" element={<RegisterView />} />
         <Route path="/employeesview" element={<EmployeesView />} />
         <Route path="/loginview" element={<LoginView />} />
-        {/* <Route path="/home" element={<EmployeesView />} /> */}
-        <Route path="/" element={<Home prop='<img src="/logo.png"/>' />} />
+        <Route path="/rolesview" element={<RolesView />} />
+        <Route path="/applicationsview" element={<ApplicationView />} />
+        <Route path="/newsview" element={<NewsView />} />
+        <Route path="/userRolview" element={<UserRoles />} />
+        <Route path="/appRolview" element={<AppRoles />} />
+
+        <Route path="/" element={<HomeView />} />
       </Routes>
     </BrowserRouter>
 

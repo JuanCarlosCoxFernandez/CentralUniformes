@@ -1,0 +1,18 @@
+.content-application_roles {
+    padding: 40px;
+    width: 80%;
+    padding-left: 90px;
+    text-align: left;
+    
+   }
+
+   .list-application_roles {
+    flex:1;
+    text-align: left;
+    border-top:4px solid lightgray;
+   }
+
+   .RolesPreview {
+    /* background-color: #4ff062; */
+    background-color: lightgreen;
+   }

@@ -1,10 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\API;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Role;
+use Validator;
 
 class RoleController extends Controller
 {
@@ -82,6 +83,7 @@ class RoleController extends Controller
       if ($validator->fails()) {
         return $this->sendError('Validation Error.', $validator->errors());
       }
+      $roles = Role::find($id);
       $roles->name = $input['name'];
       $roles->save();
       return response()->json([
@@ -99,11 +101,11 @@ class RoleController extends Controller
      */
   public function destroy($id)
   {
+      $roles = Role::find($id);
       $roles->delete();
       return response()->json([
         "success" => true,
         "message" => "Rol deleted successfully.",
-        "data" => $roles
       ]);
   }
 }

@@ -1,40 +1,55 @@
 import React, { useState } from 'react';
 import './login.css';
+import { loginUser } from '../../services/employeeService';
+import {Button} from 'antd';
 
 function Login() {
-  const [password, setpassword] = useState('');
-  const [email, setEmail] = useState('');
+  const [credentials, setCredentials] = useState({
+    email: '',
+    password: '',
+  });
 
-  const handlepasswordChange = (e) => {
-    setpassword(e.target.value);
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setCredentials({ ...credentials, [name]: value });
   };
 
-  const handleEmailChange = (e) => {
-    setEmail(e.target.value);
-  };
-
-  const handleSubmit = (e) => {
+  const login = (e) => {
     e.preventDefault();
 
+    console.log(credentials.email, credentials.password);
 
-    // Call the createEmployee function to create a new employee
+    loginUser(credentials);
   };
+
+  const Cancel = (e) => {
+    e.preventDefault();
+
+    setCredentials({
+      email: '',
+      password: '',
+    });
+
+  };
+
   return (
     <div className='content-register'>
       <h1>User Login</h1>
       <img src='/img/logo.png' alt='LogoCentralUniformes'></img><br></br>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={(e) => login(e)}>
         <div>
           <label htmlFor="email">Email:</label><br></br>
-          <input type="email" id="email" value={email} onChange={handleEmailChange} />
+          <input type="email" id="email" name="email" value={credentials.email} onChange={handleInputChange} />
         </div>
         <br></br>
         <div>
           <label htmlFor="password">Password:</label><br></br>
-          <input type="password" id="password" value={password} onChange={handlepasswordChange} />
+          <input type="password" id="password" name="password" value={credentials.password} onChange={handleInputChange} />
         </div>
         <br></br>
-        <button type="submit" className='register'>Login</button> <button type="reset"  className='cancel'>Cancel</button>
+        {/* <button type="submit" className='register'>Login</button> <button type="reset"  className='cancel'>Cancel</button> */}
+        <Button onClick={login} type="submit" className='ButtonUpdate'>Login</Button>&nbsp;
+        <Button onClick={Cancel} type="reset" className='ButtonDelete'>Cancel</Button>
       </form>
     </div>
   );
