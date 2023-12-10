@@ -102,6 +102,7 @@ export async function loginUser(user) {
     // Si la solicitud fue exitosa, actualizamos el estado para indicar que el usuario está conectado.
     console.log('Usuario autenticado:', response.data.data.token);
     localStorage.setItem("token", response.data.data.token);
+    localStorage.setItem("IdUser", response.data.data.idUser);
     return response.data.data.token;
   } catch (error) {
     // Si hay un error en la autenticación, puedes manejarlo aquí.

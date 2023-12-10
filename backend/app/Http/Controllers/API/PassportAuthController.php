@@ -77,6 +77,7 @@ class PassportAuthController extends Controller
             $user = Auth::user(); 
             $success['token'] =  $user->createToken('MyApp')-> accessToken; 
             $success['name'] =  $user->name;
+            $success['idUser'] = $user->id;
    
             return $this->sendResponse($success, 'User login successfully.');
         } 

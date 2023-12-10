@@ -143,4 +143,54 @@ class ApplicationController extends Controller
         ]);
     }
 
+    public function removeRole($appId, $roleId)
+    {
+        $app = Application::find($appId);
+        $role = Role::find($roleId);
+
+        // Check if the user and role are found
+        if ($app === null) {
+            return response()->json([
+                "success" => false,
+                "message" => "User not found.",
+                "message" => $appId,
+            ]);
+        }
+
+        if ($role === null) {
+            return response()->json([
+                "success" => false,
+                "message" => "Role not found."
+        ]);
+        }
+        $app->roles()->detach($role);
+
+        return response()->json([
+            "success" => true,
+            "message" => "Rol removed correctly"
+        ]);
+        
+    }
+
+    public function showRoles($appId)
+    {
+        $app = Application::find($appId);
+        $roles = $app->roles;
+
+        // Check if the app and role are found
+        if ($app === null) {
+            return response()->json([
+                "success" => false,
+                "message" => "User not found.",
+                "message" => $appId,
+            ]);
+        }
+
+        return response()->json([
+            "success" => true,
+            "message" => "User roles correctly",
+            "data" => $roles
+        ]);
+    }
+
 }

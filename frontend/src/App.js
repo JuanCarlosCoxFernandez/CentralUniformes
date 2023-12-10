@@ -27,7 +27,7 @@ function App() {
         <Route path="/newsview" element={<NewsView />} />
         <Route path="/userRolview" element={<UserRoles />} />
         <Route path="/appRolview" element={<AppRoles />} />
-        {/* <Route path="/home" element={<EmployeesView />} /> */}
+
         <Route path="/" element={<HomeView />} />
       </Routes>
     </BrowserRouter>
