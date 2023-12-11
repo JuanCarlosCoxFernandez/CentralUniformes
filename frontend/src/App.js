@@ -14,6 +14,7 @@ import ApplicationView from './views/applicationview/applicationview';
 import NewsView from './views/newsview/newsview';
 import UserRoles from './views/userRolview/userRolview';
 import AppRoles from './views/appRolview/appRolview';
+import Menu from './components/menu/menu';
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
         <Route path="/newsview" element={<NewsView />} />
         <Route path="/userRolview" element={<UserRoles />} />
         <Route path="/appRolview" element={<AppRoles />} />
-
+        <Route path='/menu' element={<Menu />} />
         <Route path="/" element={<HomeView />} />
       </Routes>
     </BrowserRouter>

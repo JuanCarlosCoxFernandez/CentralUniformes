@@ -6,7 +6,7 @@ const endpoint = 'http://localhost:8000/api'; // Servidor
 export const getAllApplication = async () => {
     try {
         const response = await axios.get(`${endpoint}/applications`,getOptionsToken(localStorage.getItem("token")));
-        console.log('Service response:', response.data.data);
+        // console.log('Service response:', response.data.data);
         return response.data.data;
       } catch (error) {
         console.error('Error al cargar las aplicaciones');

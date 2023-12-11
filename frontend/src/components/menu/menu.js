@@ -1,69 +1,90 @@
+
 import React, { useEffect, useState } from 'react';
 import { loadRoleApplication, getAllApplication } from '../../services/applicationService';
 import { loadRoleUser } from '../../services/employeeService';
 import './menu.css';
 
 function Menu() {
-  const [UserRoles, setUserRoles] = useState({});
-  const [AppRoles, setAppRoles] = useState([]);
-  const userRoleIds = {};
+  console.log("Renderizado");
+
+  // const [userRoles, setUserRoles] = useState({});
+  const [appRoles, setAppRoles] = useState([]);
 
 
-  const fetchData = async () => {
-    try {
-      // Cargar roles de usuario
-      const userData = await loadRoleUser(localStorage.getItem('IdUser'));
-      for (let i = 0; i < userData.length; i++) {
-        userRoleIds[i] = userData[i].id;
-      }
-      console.log("UserRole", userRoleIds);
 
-      // Cargar roles de aplicación
-      const appData = await getAllApplication();
-      console.log("All Applications", appData);
-
-      for (let i = 0; i < appData.length; i++) {
-        const currentAppId = appData[i].id;
-        const appRolesData = await loadRoleApplication(currentAppId);
-        console.log(`Application ${currentAppId} Roles`, appRolesData);
-
-        // Lógica de comparación
-        const commonRoles = appRolesData.filter(role => userRoleIds.hasOwnProperty(role.id));
-        console.log(`Common Roles for Application ${currentAppId}`, commonRoles);
-        // Verificar si la aplicación ya está en el estado AppRoles
-        const appExists = AppRoles.some(app => Number(app.data.id) === Number(currentAppId));
-        console.log(`Application ${currentAppId} Exists in AppRoles?`, appExists);
-
-        if (commonRoles.length > 0 && !appExists) {
-          console.log(`Adding Application ${currentAppId} to AppRoles`);
-          setAppRoles((prevRoles) => [...prevRoles, { data: appData[i], commonRoles }]);
-        }
-      }
-    } catch (error) {
-      console.error('Error:', error);
-      // Manejar errores aquí
-    }
-  };
 
   useEffect(() => {
+    const fetchData = async () => {
+      try {
+        // Cargar roles de usuario
+        const userData = await loadRoleUser(localStorage.getItem('IdUser'));
+        let userRoleIds = {};
+        for (let i = 0; i < userData.length; i++) {
+          userRoleIds[i] = userData[i].id;
+        }
+        console.log("UserRole", userRoleIds);
+
+        // Cargar roles de aplicación
+        const appData = await getAllApplication();
+        console.log("All Applications", appData);
+
+        let addedAppIds = new Set();
+
+        let newAppRoles = [];
+        let currentAppId = 0;
+
+        for (let i = 0; i < appData.length; i++) {
+          currentAppId = appData[i].id;
+
+          if (!addedAppIds.has(currentAppId)) {
+            const appRolesData = await loadRoleApplication(currentAppId);
+            console.log(`Application ${currentAppId} Roles`, appRolesData);
+
+            // Lógica de comparación
+            const commonRoles = appRolesData.filter(role => userRoleIds.hasOwnProperty(role.id));
+            console.log(`Common Roles for Application ${currentAppId}`, commonRoles);
+
+            if (commonRoles.length > 0) {
+              console.log(`Adding Application ${currentAppId} to newAppRoles`);
+              newAppRoles.push({ data: appData[i], commonRoles });
+              addedAppIds.add(currentAppId);
+            }
+          }
+        }
+
+        if (!ignore) {
+          setAppRoles(prevRoles => [...prevRoles, ...newAppRoles]);
+        }
+
+      } catch (error) {
+        console.error('Error:', error);
+        // Manejar errores aquí
+      }
+    };
+
+    let ignore = false;
     fetchData();
-    console.log("Control");
-    console.log(AppRoles);
+    // console.log("Control");
+    // console.log(appRoles);
+    return () => {
+      ignore = true;
+    }
   }, []); // Se ejecutará solo una vez después de la montura inicial
 
   return (
     <div className="menu">
       <ul>
-        {Array.isArray(AppRoles) &&
-          AppRoles.map((app, index) => (
+        {Array.isArray(appRoles) &&
+          appRoles.map((app, index) => (
             <li key={index}>
               <p>URL: {app.data.URL}</p>
+              <a href={`${app.data.URL}`}>
               <img
-                className='applicationIcon'
+                className='menuIcon'
                 alt={`icon${index}`}
                 src={`http://localhost:8000/images/${app.data.icon}`}
               />
-              <p>Common Roles: {app.commonRoles.map(role => role.name).join(', ')}</p>
+              </a>
             </li>
           ))}
         <li>hola</li>
@@ -73,3 +94,4 @@ function Menu() {
 }
 
 export default Menu;
+

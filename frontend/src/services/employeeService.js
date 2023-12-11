@@ -110,6 +110,19 @@ export async function loginUser(user) {
   }
 };
 
+export async function logoutUser(user) {
+  try {
+    const response = await axios.post(`${endpoint}/users/logout`,null,getOptionsToken(localStorage.getItem("token")));
+    localStorage.removeItem("token");
+    localStorage.removeItem("idUser");
+    localStorage.removeItem("id");
+    console.log("Usuario deslogueado");
+    return response.data;
+  } catch (error) {
+    console.error('Error de logout:', error.response.data);
+  }
+}
+
 export function setTokenOptions() {
   const token = localStorage.getItem("token");
 
