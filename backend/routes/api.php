@@ -36,6 +36,7 @@ Route::middleware('auth:api')->group(function () {
     Route::get('users/{id}', [PassportAuthController::class, 'show']);
     Route::put('users/{id}', [PassportAuthController::class, 'update']);
     Route::delete('users/{id}', [PassportAuthController::class, 'destroy']);
+    Route::post('users/logout', [PassportAuthController::class, 'userLogout']);
     //Rutas para añadir y modificar roles de usuarios
     Route::get('/user/{userId}/add-role/{roleId}', [PassportAuthController::class, 'addRole']);
     Route::get('/user/{userId}/remove-role/{roleId}', [PassportAuthController::class, 'removeRole']);
