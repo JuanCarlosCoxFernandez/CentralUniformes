@@ -13,6 +13,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  overflow-y: scroll;
 }
 
 /* Estilos para los elementos del menú lateral */
@@ -39,4 +40,8 @@
 
 .menuIcon {
   width: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }

@@ -110,7 +110,7 @@ export async function loginUser(user) {
   }
 };
 
-export async function logoutUser(user) {
+export async function logoutUser() {
   try {
     const response = await axios.post(`${endpoint}/users/logout`,null,getOptionsToken(localStorage.getItem("token")));
     localStorage.removeItem("token");
@@ -121,6 +121,14 @@ export async function logoutUser(user) {
   } catch (error) {
     console.error('Error de logout:', error.response.data);
   }
+}
+
+export function isLoggedIn() {
+  let token = localStorage.getItem("token");
+  if (token) {
+    return true;
+  }
+  return false;
 }
 
 export function setTokenOptions() {

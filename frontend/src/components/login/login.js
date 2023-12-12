@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './login.css';
 import { loginUser } from '../../services/employeeService';
 import {Button} from 'antd';
+import { useNavigate } from "react-router-dom";
 
 function Login() {
   const [credentials, setCredentials] = useState({
@@ -14,14 +15,20 @@ function Login() {
     setCredentials({ ...credentials, [name]: value });
   };
 
-  const login = (e) => {
+  const login = async (e) => {
     e.preventDefault();
 
     console.log(credentials.email, credentials.password);
 
-    loginUser(credentials);
+    await loginUser(credentials);
+    gotoHome();
   };
 
+  const navigate = useNavigate();
+    const gotoHome = () => {
+        navigate("/");
+    };
+  
   const Cancel = (e) => {
     e.preventDefault();
 
