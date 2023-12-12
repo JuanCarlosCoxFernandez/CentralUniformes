@@ -21,12 +21,6 @@ function Home(props) {
     const onChange = (currentSlide) => {
         console.log(currentSlide);
     };
-    const dotStyles = {
-        background: '#94C564', // Cambia el color de los dots
-      }
-    const carouselStyles = {
-        backgroundColor: '#f0f0f0', // Cambia el color de fondo del carrusel
-    };
 
 
     return (

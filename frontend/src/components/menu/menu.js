@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { loadRoleApplication, getAllApplication } from '../../services/applicationService';
 import { loadRoleUser } from '../../services/employeeService';
+import { HomeOutlined } from '@ant-design/icons';
 import './menu.css';
 
 function Menu() {
@@ -10,6 +11,7 @@ function Menu() {
   // const [userRoles, setUserRoles] = useState({});
   const [appRoles, setAppRoles] = useState([]);
 
+  const [user, setUser] = useState(null);
 
 
 
@@ -64,30 +66,44 @@ function Menu() {
 
     let ignore = false;
     fetchData();
-    // console.log("Control");
-    // console.log(appRoles);
+
+    // const handleAdmin = async () => {
+    //   // Aquí puedes realizar la lógica de autenticación y obtener la información del usuario
+    //   const User = localStorage.getItem('idUser');
+    //   const UserRole = loadRoleUser(User);
+    //   for (let i=0; i<UserRole.length; i++){
+    //     if (UserRole[i].name === 'Admin'){
+    //       setUser(User);
+    //     }
+    //   }
+
+    // }
+    // handleAdmin();
+
     return () => {
       ignore = true;
     }
+
   }, []); // Se ejecutará solo una vez después de la montura inicial
 
   return (
+    
     <div className="menu">
+      
       <ul>
+        <li><a href={"home"}><HomeOutlined /></a></li>
         {Array.isArray(appRoles) &&
           appRoles.map((app, index) => (
             <li key={index}>
-              <p>URL: {app.data.URL}</p>
               <a href={`${app.data.URL}`}>
-              <img
-                className='menuIcon'
-                alt={`icon${index}`}
-                src={`http://localhost:8000/images/${app.data.icon}`}
-              />
+                <img
+                  className='menuIcon'
+                  alt={`icon${index}`}
+                  src={`http://localhost:8000/images/${app.data.icon}`}
+                />
               </a>
             </li>
           ))}
-        <li>hola</li>
       </ul>
     </div>
   );
@@ -95,3 +111,46 @@ function Menu() {
 
 export default Menu;
 
+
+// {user ? (
+//   // Contenido para usuarios autenticados
+//   <nav className="header-nav">
+//     <ul>
+//       <li><HomeOutlined /></li>
+//       <li></li>
+//       {Array.isArray(appRoles) &&
+//         appRoles.map((app, index) => (
+//           <li key={index}>
+//             <p>URL: {app.data.URL}</p>
+//             <a href={`${app.data.URL}`}>
+//               <img
+//                 className='menuIcon'
+//                 alt={`icon${index}`}
+//                 src={`http://localhost:8000/images/${app.data.icon}`}
+//               />
+//             </a>
+//           </li>
+//         ))}
+//     </ul>
+//   </nav>
+// ) : (
+//   // Contenido para usuarios no autenticados
+//   <nav className="header-nav">
+//     <ul>
+//       <li><HomeOutlined /></li>
+//       {Array.isArray(appRoles) &&
+//         appRoles.map((app, index) => (
+//           <li key={index}>
+//             <p>URL: {app.data.URL}</p>
+//             <a href={`${app.data.URL}`}>
+//               <img
+//                 className='menuIcon'
+//                 alt={`icon${index}`}
+//                 src={`http://localhost:8000/images/${app.data.icon}`}
+//               />
+//             </a>
+//           </li>
+//         ))}
+//     </ul>
+//   </nav>
+// )}
