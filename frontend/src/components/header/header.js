@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { UserOutlined, UserAddOutlined, CloseCircleOutlined } from '@ant-design/icons';
+import { UserOutlined, UserAddOutlined, CloseCircleOutlined,InfoCircleOutlined } from '@ant-design/icons';
 
 import './header.css';
 import { logoutUser } from '../../services/employeeService';
@@ -35,6 +35,9 @@ function Header() {
             <nav className="header-nav">
               <ul>
                 <li><a className="name1" href="/">Central</a><a className="name2" href="/">Uniformes</a></li>
+                <li>
+                      <a href='/Manual_Usuario/Manual CentralUniformes.html' target='Blank'><InfoCircleOutlined /></a>
+                </li>
                 <li className='right-align IconsHeader' onClick={handleLogout}><CloseCircleOutlined /></li>
               </ul>
             </nav>
@@ -48,13 +51,6 @@ function Header() {
               </ul>
             </nav>
           )}
-          {/* <nav className="header-nav">
-          <ul>
-            <li><a className="name1" href="/">Central</a><a className="name2" href="/">Uniformes</a></li>
-            <li className="right-align IconsHeader"><a href="/loginview"><UserOutlined /></a></li>
-            <li className='IconsHeader'><a href="/registerview"><UserAddOutlined /></a></li>
-          </ul>
-        </nav> */}
         </div>
       </header>
     </div>

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './roles.css';
 import { getAllRoles, getRolById, createRol, updateRol, deleteRol } from '../../services/roleService';
-import {Button, Popover} from 'antd';
+import {Button, Popover, notification} from 'antd';
 function Roles() {
     const [Roles, setRoles] = useState([]);
     const [open, setOpen] = useState([]);
@@ -61,9 +61,10 @@ function Roles() {
             });
     }, []);
 
-    const handleDelete = (id) => {
+    const handleDelete = async (id) => {
         // Call the deleteRol function to delete a Rol
-        deleteRol(id);
+        await deleteRol(id);
+        notification.success({message:'Rol deleted',duration:5})
       };
     
       const handleUpdate = async(rol) => {
@@ -82,12 +83,15 @@ function Roles() {
                 name: '',
             });
 
+            notification.success({message:'Rol updated',duration:5})
+
             const updatedRol = await getAllRoles();
             setRoles(updatedRol);
 
 
         } catch (error) {
             console.error('Error al actualizar la aplicacion:', error);
+            notification.error({message:'Error updating rol',duration:5})
         };
       };
 
@@ -96,8 +100,9 @@ function Roles() {
             console.log("Datos del formulario:", newRol);
 
             // Llama a la función para crear una nueva noticia en el servidor
-            createRol(newRol);
+            await createRol(newRol);
 
+            notification.success({message:'Rol created',duration:5})
 
             // Reinicia los valores del formulario
             setNewRol({
@@ -109,6 +114,7 @@ function Roles() {
 
         } catch (error) {
             console.error('Error al crear el rol:', error);
+            notification.error({message:'Error creating rol',duration:5})
         }
     };
 

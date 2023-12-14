@@ -19,13 +19,14 @@ use App\Http\Controllers\API\NewController;
 |
 */
 
+//Rutas de login y register de usuario
+Route::post('register', [PassportAuthController::class, 'register']);
+Route::post('login', [PassportAuthController::class, 'login']);
+
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-//Rutas de login y register de usuario
-Route::post('register', [PassportAuthController::class, 'register']);
-Route::post('login', [PassportAuthController::class, 'login']);
 
 //Ruta pagina principal
 Route::get('news', [NewController::class,'index']);

@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { addRoleApplication, loadRoleApplication, removeRoleApplication } from '../../services/applicationService';
 import { getAllRoles } from '../../services/roleService';
-
-import { Button, Popover } from 'antd';
+import { Button, Popover, notification } from 'antd';
 import './application_roles.css';
 function Application_roles() {
-
     const [AppR, setAppR] = useState({
         app_id: localStorage.getItem('id'),
         rol_id: '',
@@ -56,7 +54,7 @@ function Application_roles() {
             console.log("Datos del formulario:", newR);
             console.log(rolId);
             // Llama a la función para crear una nueva noticia en el servidor
-            addRoleApplication(appId,rolId);
+            await addRoleApplication(appId,rolId);
 
 
             // Reinicia los valores del formulario
@@ -65,17 +63,21 @@ function Application_roles() {
                 rol_id: '',
             });
 
-            // Cierra el formulario
-
+            //Alert Success
+            notification.success({message:'Rol added correcly', duration:5})
 
         } catch (error) {
             console.error('Error al crear la relacion de roles:', error);
+
+            //Alert Error
+            notification.error({message:'A problem occurs when trying to add the rol', duration:5})
         }
     };
 
-    const handleDelete = (rol_id) => {
+    const handleDelete = async (rol_id) => {
         let appId = localStorage.getItem('id');
-        removeRoleApplication(appId, rol_id);
+        await removeRoleApplication(appId, rol_id);
+        notification.success({message:'Rol deleted successfully', duration:5})
     };
 
     const generalForm = (

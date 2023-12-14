@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 //import axios from 'axios';
 import { getAllUsers, deleteUser, updateUser } from '../../services/employeeService';
 import './employees.css';
-import { Button, Popover } from 'antd';
+import { Button, Popover, notification } from 'antd';
 import { useNavigate } from "react-router-dom";
 
 function Employees() {
@@ -59,9 +59,10 @@ function Employees() {
       });
   }, []);
 
-  const handleDelete = (id) => {
+  const handleDelete = async (id) => {
     // Call the deleteEmployee function to delete an employee
-    deleteUser(id);
+    await deleteUser(id);
+    notification.success({message:'User deleted successfully', duration:5})
   };
 
   const handleUpdate = async (user) => {
@@ -94,11 +95,14 @@ function Employees() {
         email: '',
         password: '',
       });
-  
+      //Alert
+      notification.success({message:'User updated correcly',duration:5})
       const updatedApp = await getAllUsers();
       setUsers(updatedApp);
+
     } catch (error) {
       console.error('Error al actualizar el usuario:', error);
+      notification.error({message:'A problem occurs trying to update user', duration:5})
     }
   };
 

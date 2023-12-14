@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './applications.css';
 import { getAllApplication, createApplication, updateApplication, deleteApplication } from '../../services/applicationService';
-import { Button, Popover } from 'antd';
+import { Button, Popover, notification } from 'antd';
 import { useNavigate } from "react-router-dom";
 
 function Applications() {
@@ -65,9 +65,10 @@ function Applications() {
             });
     }, []);
 
-    const handleDelete = (id) => {
+    const handleDelete = async (id) => {
         // Call the deleteRol function to delete a Application
-        deleteApplication(id);
+        await deleteApplication(id);
+        notification.success({message:'Application deleted successfully',duration:5})
     };
 
     const handleUpdate = async (app) => {
@@ -93,9 +94,12 @@ function Applications() {
             const updatedApp = await getAllApplication();
             setApplications(updatedApp);
 
-
+            //Alert success
+            notification.success({message:'Application updated correcly', duration:5})
         } catch (error) {
             console.error('Error al actualizar la aplicacion:', error);
+            //Alert error
+            notification.error({message:'It wasn´t possible to update the application', duration:5})
         };
     };
 
@@ -104,7 +108,7 @@ function Applications() {
             console.log("Datos del formulario:", newApp);
 
             // Llama a la función para crear una nueva noticia en el servidor
-            createApplication(newApp);
+            await createApplication(newApp);
 
 
             // Reinicia los valores del formulario
@@ -115,9 +119,12 @@ function Applications() {
 
             // Cierra el formulario
 
-
+            //Alert success
+            notification.success({message:'Application created correcly', duration:5})
         } catch (error) {
             console.error('Error al crear la aplicacion:', error);
+            //Alert error
+            notification.error({message:'It wasn´t possible to create the application', duration:5})
         }
     };
     const navigate = useNavigate();

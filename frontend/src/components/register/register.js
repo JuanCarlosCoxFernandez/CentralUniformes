@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { register } from '../../services/employeeService.js';
 import './register.css';
-import {Button} from 'antd';
+import {Button, notification} from 'antd';
 
 function Register() {
   const [credentials, setCredentials] = useState({
@@ -15,12 +15,13 @@ function Register() {
     setCredentials({ ...credentials, [name]: value });
   };
 
-  const registerUser = (e) => {
+  const registerUser = async (e) => {
     e.preventDefault();
 
     console.log(credentials.name, credentials.email, credentials.password);
     // Call the createEmployee function to create a new employee
-    register(credentials)
+    await register(credentials)
+    notification.success({message:'User registered successfully',duration:5})
   };
 
   const Cancel = (e) => {
