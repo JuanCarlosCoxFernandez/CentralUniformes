@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { getAllNew, getNewById, updateNew, deleteNew, createNew } from '../../services/newService';
 import './news.css';
-import { Button, Popover } from 'antd';
+import { Button, Popover, notification } from 'antd';
 
 
 function News() {
@@ -94,6 +94,7 @@ function News() {
         image: '',
       });
 
+      notification.success({message:'New updated successfully',duration:5})
       // Vuelve a cargar la lista de noticias
       const updatedNews = await getAllNew();
       setNews(updatedNews);
@@ -101,6 +102,7 @@ function News() {
 
     } catch (error) {
       console.error('Error al actualizar la noticia:', error);
+      notification.error({message:'Error trying to update new',duration:5})
     };
     // Cierra el Popover después de la actualización
 
@@ -111,7 +113,7 @@ function News() {
       console.log("Datos del formulario:", newNews);
 
       // Llama a la función para crear una nueva noticia en el servidor
-      createNew(newNews);
+      await createNew(newNews);
 
 
       // Reinicia los valores del formulario
@@ -121,11 +123,12 @@ function News() {
         image: '',
       });
 
-      // Cierra el formulario
-
+      
+      notification.success({message:'New created successfully',duration:5})
 
     } catch (error) {
       console.error('Error al crear la noticia:', error);
+      notification.error({message:'Error creating new'})
     }
   };
 

@@ -45,3 +45,7 @@
 ::-webkit-scrollbar {
   display: none;
 }
+
+.IconGoBack {
+  border-radius: 90%;
+}

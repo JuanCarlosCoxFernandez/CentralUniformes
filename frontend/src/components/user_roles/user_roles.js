@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { addRoleUser, loadRoleUser, removeRoleUser } from '../../services/employeeService';
 import { getAllRoles } from '../../services/roleService';
 
-import { Button, Popover } from 'antd';
+import { Button, Popover, notification } from 'antd';
 import './user_roles.css';
 function User_roles() {
 
@@ -56,8 +56,9 @@ function User_roles() {
             console.log("Datos del formulario:", newR);
             console.log(rolId);
             // Llama a la función para crear una nueva noticia en el servidor
-            addRoleUser(userId,rolId);
+            await addRoleUser(userId,rolId);
 
+            notification.success({message:'Rol added',duration:5})
 
             // Reinicia los valores del formulario
             setNewR({
@@ -70,13 +71,15 @@ function User_roles() {
 
         } catch (error) {
             console.error('Error al crear la relacion de roles:', error);
+            notification.error({message:'Error adding rol to user',duration:5})
         }
     };
 
-    const handleDelete = (rol_id) => {
+    const handleDelete = async (rol_id) => {
         let userId = localStorage.getItem('id');
         console.log(userId);
-        removeRoleUser(userId, rol_id);
+        await removeRoleUser(userId, rol_id);
+        notification.error({message:'rol deleted successfully',duration:5})
     };
 
     const generalForm = (

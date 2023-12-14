@@ -2,10 +2,15 @@
 import React, { useEffect, useState } from 'react';
 import { loadRoleApplication, getAllApplication } from '../../services/applicationService';
 import { loadRoleUser } from '../../services/employeeService';
-import { HomeOutlined } from '@ant-design/icons';
+import { HomeOutlined, RollbackOutlined  } from '@ant-design/icons';
+import { useNavigate } from 'react-router-dom';
 import './menu.css';
 
+import {notification } from 'antd';
+
 function Menu() {
+  
+  const navigate = useNavigate();
   console.log("Renderizado");
 
   // const [userRoles, setUserRoles] = useState({});
@@ -86,12 +91,18 @@ function Menu() {
 
   }, []); // Se ejecutará solo una vez después de la montura inicial
 
+  const Prueba = () => (
+    notification.error({message:'Error', description:'aaaaaaaaa',duration:5})
+  );
+
+
   return (
-    
+
     <div className="menu">
-      
+
       <ul>
-        <li><a href={"home"}><HomeOutlined /></a></li>
+      <li><button className='IconGoBack' onClick={() => navigate(-1)}><RollbackOutlined /></button></li>
+        <li><a href={"/"}><HomeOutlined /></a></li>
         {Array.isArray(appRoles) &&
           appRoles.map((app, index) => (
             <li key={index}>

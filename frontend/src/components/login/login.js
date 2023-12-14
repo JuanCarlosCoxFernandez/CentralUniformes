@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './login.css';
 import { loginUser } from '../../services/employeeService';
-import {Button} from 'antd';
+import {Button, notification} from 'antd';
 import { useNavigate } from "react-router-dom";
 
 function Login() {
@@ -21,6 +21,7 @@ function Login() {
     console.log(credentials.email, credentials.password);
 
     await loginUser(credentials);
+    notification.success({message:'User logged',duration:5})
     gotoHome();
   };
 
