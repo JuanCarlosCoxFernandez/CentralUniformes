@@ -82,7 +82,7 @@ The company who requested this app is CentralUniformes, a leading company in the
 This project consists of a home pege where everyone can see the news that de admin has created and a lateral menu where every user can access the different applications that the admin granted access.
 
 ### Tecnology
-This application is a Web App and because of that it have some advantages and disadvantages differents from the rest of tecnologies(Native Apps, hybrid, Web, PWA apps)
+This application is a Web App and because of that it have some advantages and disadvantages differents from the rest of tecnologies(Native Apps, hybrid, Web, PWA apps). We can asume that this is a Web application because it is accessible from any device with an internet connection and a web browser, it uses standard web technologies such as HTML, CSS, and JavaScript. Therefore, it is an application that works on different operating systems and browsers without the need to develop specific versions for each platform. Additionally, the use of modern web technologies like JavaScript and frameworks such as React or Angular allows for the creation of interactive and dynamic user interfaces, providing a more engaging user experience. Also the company uses this application to redirect users to other applications so it need to be always active with connection to the server and updates that can be make easer than in other tecnologies without worries or approval of the app store that can affect the users or the applications he can access, and everyone can access regardless of the operating system or browser used to access it.
 #### Native Apps:
 ##### Advantages:
 
