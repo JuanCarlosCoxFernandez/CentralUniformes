@@ -16,3 +16,26 @@
     /* background-color: #4ff062; */
     background-color: lightgreen;
    }
+
+
+
+   @media only screen and (max-width: 600px) {
+    .block {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .guia {
+        display: none; /* Ocultar en dispositivos móviles */
+    }
+    .list-application_roles{
+        border-top:none;
+        
+    }
+    .applicationIcon,
+    .borders {
+        width: 90%; 
+    }
+
+}

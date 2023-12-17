@@ -105,7 +105,7 @@ function Application_roles() {
 
             <div className='block'>
                 <div className='list-application_roles'>
-                    <h3>Rol:</h3>
+                    <h3>Roles:</h3>
                 </div>
                 <div className='list-application_roles'>
                     <h3></h3>

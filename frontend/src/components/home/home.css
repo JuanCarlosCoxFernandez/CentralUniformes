@@ -69,3 +69,25 @@
   height: 100%;
   border-radius: 10%;
 }
+
+/* Consulta de medios para dispositivos móviles con ancho máximo de 600px (ajusta según sea necesario) */
+@media only screen and (max-width: 600px) {
+  .homeContainer {
+      flex-direction: column; /* Cambiado a columna para dispositivos móviles */
+      padding-left: 30%;
+      padding-right: 10%;
+  }
+  .hometitle {
+    margin-left: 15%;
+  }
+  .cont1 {
+    height: 100vh;
+  }
+  .cont1,
+  .cont2 {
+      margin-left: 0; /* Eliminar margen lateral en dispositivos móviles */
+      margin-right: 0; /* Eliminar margen lateral en dispositivos móviles */
+      width: 100%; /* Ocupar todo el ancho en dispositivos móviles */
+      border-radius: 20%;
+  }
+}

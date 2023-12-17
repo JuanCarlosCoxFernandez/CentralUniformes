@@ -162,7 +162,7 @@ function Roles() {
         <div className='content-roles'>
             <div className='block'>
 
-                <div className='list-roles'>
+                <div className='list-roles guia'>
                     <h3>Name:</h3>
                 </div>
                 <div className='list-roles'>

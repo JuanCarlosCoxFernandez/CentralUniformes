@@ -107,7 +107,7 @@ function User_roles() {
 
             <div className='block'>
                 <div className='list-user_roles'>
-                    <h3>Rol:</h3>
+                    <h3>Roles:</h3>
                 </div>
                 <div className='list-user_roles'>
                     <h3></h3>

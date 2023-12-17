@@ -212,13 +212,13 @@ function News() {
     <div className='content-news'>
 
       <div className='block'>
-        <div className='list-news'>
+        <div className='list-news guia'>
           <h3>Title:</h3>
         </div>
-        <div className='list-news'>
+        <div className='list-news guia'>
           <h3>Content:</h3>
         </div>
-        <div className='list-news'>
+        <div className='list-news guia'>
           <h3>Image:</h3>
         </div>
         <div className='list-news popover'>
@@ -237,7 +237,7 @@ function News() {
               <p className='borders'>{news.title}</p>
             </div >
             <div className='list-news'>
-              <p className='borders'>{news.content}</p>
+              <textarea className='borders newstext'>{news.content}</textarea>
             </div >
             <div className='list-news'>
               <img className='borders newsImage' alt='icon1' src={`http://localhost:8000/images/${news.image}`}></img>

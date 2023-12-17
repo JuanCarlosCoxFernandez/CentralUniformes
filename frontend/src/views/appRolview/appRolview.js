@@ -9,7 +9,7 @@ import Application_roles from '../../components/application_roles/application_ro
 function AppRoles() {
     return(
         <div className="App">
-      <Header />
+      <Header/>
       <div className="content">
         <Menu />
         <Application_roles className="content-UserRolesView"/>
