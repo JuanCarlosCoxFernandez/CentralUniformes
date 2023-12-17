@@ -153,10 +153,10 @@ function Employees() {
   return (
     <div className='content-employees'>
       <div className='block'>
-        <div className='list-employees'>
+        <div className='list-employees guia'>
           <h3>Name:</h3>
         </div>
-        <div className='list-employees'>
+        <div className='list-employees guia '>
           <h3>Email:</h3>
         </div>
         <div className='list-employees'>

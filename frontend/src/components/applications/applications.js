@@ -196,10 +196,10 @@ function Applications() {
         <div className='content-applications'>
             <div className='block'>
 
-                <div className='list-applications'>
+                <div className='list-applications guia'>
                     <h3>Icon:</h3>
                 </div>
-                <div className='list-applications'>
+                <div className='list-applications guia '>
                     <h3>URL:</h3>
                 </div>
 
@@ -223,7 +223,7 @@ function Applications() {
                             <p className='borders'>{application.URL}</p>
                         </div >
                         <div className='list-applications email-space'>
-                            <p className='borders'>
+                            <p className='borders buttons'>
                                 <Button onClick={() => handleDelete(application.id)} type="primary" className='ButtonDelete'>Delete</Button>
                                 &nbsp;&nbsp;
                                 <Popover

@@ -8,7 +8,7 @@ import Applications from '../../components/applications/applications';
 function ApplicationView(){
     return(
         <div className="App">
-      <Header />
+      <Header/>
       <div className="content">
         <Menu />
         <Applications className="content-applicationsView"/>
