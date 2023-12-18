@@ -361,7 +361,10 @@ Regarding the technical specifications, it has been developed in a cloud environ
 
 ## Interfaces
 ### Design
-This is the prototype of the app *******************************************************************
+
+
+https://www.figma.com/file/bfI0Iqb6KjdEgajw0mP6YQ/Central-Uniformes?type=design&node-id=0%3A1&mode=design&t=6Pt1W0lf8BoAKnOt-1
+
 <br>
 
 ### Usability and accesibility
