@@ -1,0 +1,4 @@
+2024-01-11T15:31:35.666Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 18.18.0)
+2024-01-11T15:31:35.671Z - info: Searching for available extensions in C:\Users\juank\Proyectos\Tecnologias\
+2024-01-11T15:31:35.689Z - info: Extensions location cache doesn't contain entry yet, crawling
+2024-01-11T15:31:59.763Z - info: Found 35 extension(s)

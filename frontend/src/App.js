@@ -17,6 +17,7 @@ import NewsView from './views/newsview/newsview';
 import UserRoles from './views/userRolview/userRolview';
 import AppRoles from './views/appRolview/appRolview';
 import Menu from './components/menu/menu';
+import Reports from './components/jsReportPrueba/jsReportPrueba.js';
 
 function App() {
 
@@ -41,6 +42,7 @@ function App() {
           <Route path="/appRolview" element={<AppRoles />} />
           <Route path='/menu' element={<Menu />} />
         {/* </Route> */}
+          <Route path='/report' element={<Reports />} />
 
         <Route path="/loginview" element={<LoginView />} />
         <Route path="/registerview" element={<RegisterView />} />

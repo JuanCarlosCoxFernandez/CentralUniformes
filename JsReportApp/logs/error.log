@@ -1,0 +1,2258 @@
+2024-01-12T16:10:51.483Z - error: Report render failed
+(because) connect ECONNREFUSED ::1:8000
+Error: connect ECONNREFUSED ::1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) rootId=gpe3ifewiz55j90, id=gpe3ifewiz55j90
+2024-01-12T16:12:30.600Z - error: Report render failed
+(because) connect ECONNREFUSED ::1:8000
+Error: connect ECONNREFUSED ::1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) rootId=ea3dflz5vf9nhse, id=ea3dflz5vf9nhse
+2024-01-12T16:14:45.193Z - error: Report render failed
+(because) connect ECONNREFUSED ::1:8000
+Error: connect ECONNREFUSED ::1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) rootId=0yw7vlf13hy7apx, id=0yw7vlf13hy7apx
+2024-01-12T16:16:32.218Z - error: Report render failed
+(because) connect ECONNREFUSED ::1:8000
+Error: connect ECONNREFUSED ::1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) rootId=562easedvbrg1hv, id=562easedvbrg1hv
+2024-01-12T16:18:29.079Z - error: Report render failed
+(because) connect ECONNREFUSED ::1:8000
+Error: connect ECONNREFUSED ::1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) rootId=b4b9ds6oym9wpqv, id=b4b9ds6oym9wpqv
+2024-01-12T16:31:15.598Z - error: Report render failed
+(because) connect ECONNREFUSED ::1:8000
+Error: connect ECONNREFUSED ::1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) rootId=er9o76t19hsomzw, id=er9o76t19hsomzw
+2024-01-12T16:32:01.219Z - error: Report render failed
+(because) connect ECONNREFUSED ::1:8000
+Error: connect ECONNREFUSED ::1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) rootId=0wjwfpr8ndf7t7x, id=0wjwfpr8ndf7t7x
+2024-01-12T16:33:13.961Z - error: Report render failed
+(because) connect ECONNREFUSED ::1:8000
+Error: connect ECONNREFUSED ::1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) rootId=siyk44stam1oylf, id=siyk44stam1oylf
+2024-01-12T16:34:31.735Z - error: Report render failed
+(because) connect ECONNREFUSED ::1:8000
+Error: connect ECONNREFUSED ::1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) rootId=wg8o0bkc37rpcfx, id=wg8o0bkc37rpcfx
+2024-01-12T16:44:14.472Z - error: Report render failed
+(because) connect ECONNREFUSED ::1:8000
+Error: connect ECONNREFUSED ::1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) rootId=o5ge70ln8548hp8, id=o5ge70ln8548hp8
+2024-01-12T16:55:03.099Z - error: Report render failed
+(because) connect ECONNREFUSED ::1:8000
+Error: connect ECONNREFUSED ::1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) rootId=x7nv5urptv57hrp, id=x7nv5urptv57hrp
+2024-01-12T16:56:52.366Z - error: Report render failed
+(because) connect ECONNREFUSED ::1:8000
+Error: connect ECONNREFUSED ::1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) rootId=v2ykwylb1v23u8x, id=v2ykwylb1v23u8x
+2024-01-12T16:56:54.053Z - error: Report render failed
+(because) connect ECONNREFUSED ::1:8000
+Error: connect ECONNREFUSED ::1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) rootId=np5cvnc6rye3l6a, id=np5cvnc6rye3l6a
+2024-01-12T16:58:13.708Z - error: Report render failed
+(because) connect ECONNREFUSED ::1:8000
+Error: connect ECONNREFUSED ::1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) rootId=a4tadijaki0i65i, id=a4tadijaki0i65i
+2024-01-12T19:50:25.842Z - error: Error when processing OData PATCH: /odata/scripts(PgDeuz4FvkvfK7yl) Error: Entity (_id: PgDeuz4FvkvfK7yl) was modified previously by another source
+    at module.exports (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at MainReporter.createError (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at AsyncFunction.<anonymous> (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-studio\lib\main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+    at async Object.update (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-core\lib\main\store\collection.js:174:5)
+2024-01-12T19:51:08.960Z - error: Report render failed
+(because) connect ECONNREFUSED ::1:8000
+Error: connect ECONNREFUSED ::1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) rootId=0fpv1dyg8wt548q, id=0fpv1dyg8wt548q
+2024-01-12T19:53:46.573Z - error: Report render failed
+(because) connect ECONNREFUSED ::1:8000
+Error: connect ECONNREFUSED ::1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) rootId=c7hy19koo1rq078, id=c7hy19koo1rq078
+2024-01-12T19:54:08.854Z - error: Error when processing OData PATCH: /odata/scripts(PgDeuz4FvkvfK7yl) Error: Entity (_id: PgDeuz4FvkvfK7yl) was modified previously by another source
+    at module.exports (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at MainReporter.createError (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at AsyncFunction.<anonymous> (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-studio\lib\main.js:538:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ListenerCollection.fire (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+    at async Object.update (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-core\lib\main\store\collection.js:174:5)
+2024-01-12T19:54:12.504Z - error: Report render failed
+(because) connect ECONNREFUSED ::1:8000
+Error: connect ECONNREFUSED ::1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) rootId=k0a6j2x7otaaolr, id=k0a6j2x7otaaolr
+2024-01-12T20:12:13.625Z - error: Report render failed
+(because) connect ECONNREFUSED ::1:8000
+Error: connect ECONNREFUSED ::1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) rootId=9ujzlcnn7jxc4fu, id=9ujzlcnn7jxc4fu
+2024-01-12T20:13:55.585Z - error: Report render failed
+(because) connect ECONNREFUSED ::1:8000
+Error: connect ECONNREFUSED ::1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) rootId=obk7wlstn600n1e, id=obk7wlstn600n1e
+2024-01-12T20:14:04.394Z - error: Report render failed
+(because) connect ECONNREFUSED ::1:8000
+Error: connect ECONNREFUSED ::1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) rootId=n2livq3jmruxven, id=n2livq3jmruxven
+2024-01-12T20:17:16.165Z - error: Report render failed
+(because) connect ECONNREFUSED ::1:8000
+Error: connect ECONNREFUSED ::1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) rootId=xd9o793cvlxvc8p, id=xd9o793cvlxvc8p
+2024-01-14T17:54:54.260Z - error: Report render failed
+(because) axiosError: connect ECONNREFUSED ::1:8000
+    at AxiosError.from (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\axios\dist\node\axios.cjs:837:14)
+    at RedirectableRequest.handleRequestError (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\axios\dist\node\axios.cjs:3090:25)
+    at RedirectableRequest.emit (node:events:517:28)
+    at eventHandlers.<computed> (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\follow-redirects\index.js:37:24)
+    at ClientRequest.emit (node:events:517:28)
+    at Socket.socketErrorListener (node:_http_client:501:9)
+    at Socket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  port: 8000,
+  address: '::1',
+  syscall: 'connect',
+  code: 'ECONNREFUSED',
+  errno: -4078,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/x-www-form-urlencoded',
+      Authorization: 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMGQ3ZjlkMDY1NGE4OGY1MTMyOWMwZGZjYWNiZGRiNmY1NzJiNmVhZjhjZTA5MWFhNmQyNDc1NGEwNTMwYWQxYTM0NDAzODc2YWIzNjI5YjMiLCJpYXQiOjE3MDUwNzUwNTMuOTk1NDIxLCJuYmYiOjE3MDUwNzUwNTMuOTk1NDI1LCJleHAiOjE3MzY2OTc0NTMuNTQwNjg0LCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.o2vFrmAjnxr5Quk3qeEYgw6CK7OzXQ3qzOumUSYo1jaav4k-oOmhrbdmvz6_ZI0921V7srq2sAbmxxujbpgtGreqqRkSO4-eH2p86yOWLf5FBoB-5TBjCn1xJMqq2Nuaubb8XbwQCbQ2lSV8LUjseg7RF46Dt6d49TPpINDh_qtzI2q07BZPcLWbmVGUz6bP52LAbeJl_K3DaVE6jJS6b3TikXIAweIMUttE5IMA1zJRT_RB6AkRAkRk79KuGdwWiHROrqE95ZM5h-_T77uqafD6eR0UPR-eZuRWLzAGsDOXL8n56c41kLZtrLfRyUJQ9GXMT2jvmwNX18XyBo8gU6SjgK1lnffUqdAkWYvEvRUZUOgbJjoSh85kuFop1d9M4ShXP8dUDShP31Odk0550fAI1iBLI32BO7r50IbxGoaIBinZN78zCmSkZ0_DxrlApj9nl405HSoM724ZuRRMTAOt1k0TTd1KdGNuo-Q1JkkW7vqtnrMdDbbNThbhkLlivXqSBPPF8RONApBmQMDayQq5HJlQHhyECsnDuR2m1OXoagnSoLVl_UQDHtDRmBah3AnxCj2VB-HdEpqPg5z8JoTbhUfSNfh6XZg1kWUmPlfeq8P8zgdH8P23WtkZUdrmR6CDYKIz1kInicNODvA4FrMGqCPaBkt_ZBpvLKgp5RA',
+      'User-Agent': 'axios/1.6.5',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    method: 'get',
+    url: 'http://localhost:8000/api/applications',
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: true,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 0,
+      constructed: true,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: true,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      [Symbol(kOnFinished)]: []
+    },
+    _events: [Object: null prototype] {
+      response: [Function: handleResponse],
+      error: [Function: handleRequestError],
+      socket: [Function: handleRequestSocket]
+    },
+    _eventsCount: 3,
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 21,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/api/applications',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'localhost',
+      port: '8000',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/api/applications'
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 0,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /api/applications HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMGQ3ZjlkMDY1NGE4OGY1MTMyOWMwZGZjYWNiZGRiNmY1NzJiNmVhZjhjZTA5MWFhNmQyNDc1NGEwNTMwYWQxYTM0NDAzODc2YWIzNjI5YjMiLCJpYXQiOjE3MDUwNzUwNTMuOTk1NDIxLCJuYmYiOjE3MDUwNzUwNTMuOTk1NDI1LCJleHAiOjE3MzY2OTc0NTMuNTQwNjg0LCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.o2vFrmAjnxr5Quk3qeEYgw6CK7OzXQ3qzOumUSYo1jaav4k-oOmhrbdmvz6_ZI0921V7srq2sAbmxxujbpgtGreqqRkSO4-eH2p86yOWLf5FBoB-5TBjCn1xJMqq2Nuaubb8XbwQCbQ2lSV8LUjseg7RF46Dt6d49TPpINDh_qtzI2q07BZPcLWbmVGUz6bP52LAbeJl_K3DaVE6jJS6b3TikXIAweIMUttE5IMA1zJRT_RB6AkRAkRk79KuGdwWiHROrqE95ZM5h-_T77uqafD6eR0UPR-eZuRWLzAGsDOXL8n56c41kLZtrLfRyUJQ9GXMT2jvmwNX18XyBo8gU6SjgK1lnffUqdAkWYvEvRUZUOgbJjoSh85kuFop1d9M4ShXP8dUDShP31Odk0550fAI1iBLI32BO7r50IbxGoaIBinZN78zCmSkZ0_DxrlApj9nl405HSoM724ZuRRMTAOt1k0TTd1KdGNuo-Q1JkkW7vqtnrMdDbbNThbhkLlivXqSBPPF8RONApBmQMDayQq5HJlQHhyECsnDuR2m1OXoagnSoLVl_UQDHtDRmBah3AnxCj2VB-HdEpqPg5z8JoTbhUfSNfh6XZg1kWUmPlfeq8P8zgdH8P23WtkZUdrmR6CDYKIz1kInicNODvA4FrMGqCPaBkt_ZBpvLKgp5RA\r\n' +
+        'User-Agent: axios/1.6.5\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: localhost:8000\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/api/applications',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'localhost',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://localhost:8000/api/applications',
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: connect ECONNREFUSED ::1:8000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -4078,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 8000
+  }
+} rootId=h0pqfademrfew8a, id=h0pqfademrfew8a
+2024-01-14T18:02:03.706Z - error: Report render failed
+(because) axiosError: connect ECONNREFUSED ::1:8000
+    at AxiosError.from (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\axios\dist\node\axios.cjs:837:14)
+    at RedirectableRequest.handleRequestError (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\axios\dist\node\axios.cjs:3090:25)
+    at RedirectableRequest.emit (node:events:517:28)
+    at eventHandlers.<computed> (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\follow-redirects\index.js:37:24)
+    at ClientRequest.emit (node:events:517:28)
+    at Socket.socketErrorListener (node:_http_client:501:9)
+    at Socket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  port: 8000,
+  address: '::1',
+  syscall: 'connect',
+  code: 'ECONNREFUSED',
+  errno: -4078,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/x-www-form-urlencoded',
+      Authorization: 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMGQ3ZjlkMDY1NGE4OGY1MTMyOWMwZGZjYWNiZGRiNmY1NzJiNmVhZjhjZTA5MWFhNmQyNDc1NGEwNTMwYWQxYTM0NDAzODc2YWIzNjI5YjMiLCJpYXQiOjE3MDUwNzUwNTMuOTk1NDIxLCJuYmYiOjE3MDUwNzUwNTMuOTk1NDI1LCJleHAiOjE3MzY2OTc0NTMuNTQwNjg0LCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.o2vFrmAjnxr5Quk3qeEYgw6CK7OzXQ3qzOumUSYo1jaav4k-oOmhrbdmvz6_ZI0921V7srq2sAbmxxujbpgtGreqqRkSO4-eH2p86yOWLf5FBoB-5TBjCn1xJMqq2Nuaubb8XbwQCbQ2lSV8LUjseg7RF46Dt6d49TPpINDh_qtzI2q07BZPcLWbmVGUz6bP52LAbeJl_K3DaVE6jJS6b3TikXIAweIMUttE5IMA1zJRT_RB6AkRAkRk79KuGdwWiHROrqE95ZM5h-_T77uqafD6eR0UPR-eZuRWLzAGsDOXL8n56c41kLZtrLfRyUJQ9GXMT2jvmwNX18XyBo8gU6SjgK1lnffUqdAkWYvEvRUZUOgbJjoSh85kuFop1d9M4ShXP8dUDShP31Odk0550fAI1iBLI32BO7r50IbxGoaIBinZN78zCmSkZ0_DxrlApj9nl405HSoM724ZuRRMTAOt1k0TTd1KdGNuo-Q1JkkW7vqtnrMdDbbNThbhkLlivXqSBPPF8RONApBmQMDayQq5HJlQHhyECsnDuR2m1OXoagnSoLVl_UQDHtDRmBah3AnxCj2VB-HdEpqPg5z8JoTbhUfSNfh6XZg1kWUmPlfeq8P8zgdH8P23WtkZUdrmR6CDYKIz1kInicNODvA4FrMGqCPaBkt_ZBpvLKgp5RA',
+      'User-Agent': 'axios/1.6.5',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    method: 'get',
+    url: 'http://localhost:8000/api/applications',
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: true,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 0,
+      constructed: true,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: true,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      [Symbol(kOnFinished)]: []
+    },
+    _events: [Object: null prototype] {
+      response: [Function: handleResponse],
+      error: [Function: handleRequestError],
+      socket: [Function: handleRequestSocket]
+    },
+    _eventsCount: 3,
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 21,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/api/applications',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'localhost',
+      port: '8000',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/api/applications'
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 0,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /api/applications HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMGQ3ZjlkMDY1NGE4OGY1MTMyOWMwZGZjYWNiZGRiNmY1NzJiNmVhZjhjZTA5MWFhNmQyNDc1NGEwNTMwYWQxYTM0NDAzODc2YWIzNjI5YjMiLCJpYXQiOjE3MDUwNzUwNTMuOTk1NDIxLCJuYmYiOjE3MDUwNzUwNTMuOTk1NDI1LCJleHAiOjE3MzY2OTc0NTMuNTQwNjg0LCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.o2vFrmAjnxr5Quk3qeEYgw6CK7OzXQ3qzOumUSYo1jaav4k-oOmhrbdmvz6_ZI0921V7srq2sAbmxxujbpgtGreqqRkSO4-eH2p86yOWLf5FBoB-5TBjCn1xJMqq2Nuaubb8XbwQCbQ2lSV8LUjseg7RF46Dt6d49TPpINDh_qtzI2q07BZPcLWbmVGUz6bP52LAbeJl_K3DaVE6jJS6b3TikXIAweIMUttE5IMA1zJRT_RB6AkRAkRk79KuGdwWiHROrqE95ZM5h-_T77uqafD6eR0UPR-eZuRWLzAGsDOXL8n56c41kLZtrLfRyUJQ9GXMT2jvmwNX18XyBo8gU6SjgK1lnffUqdAkWYvEvRUZUOgbJjoSh85kuFop1d9M4ShXP8dUDShP31Odk0550fAI1iBLI32BO7r50IbxGoaIBinZN78zCmSkZ0_DxrlApj9nl405HSoM724ZuRRMTAOt1k0TTd1KdGNuo-Q1JkkW7vqtnrMdDbbNThbhkLlivXqSBPPF8RONApBmQMDayQq5HJlQHhyECsnDuR2m1OXoagnSoLVl_UQDHtDRmBah3AnxCj2VB-HdEpqPg5z8JoTbhUfSNfh6XZg1kWUmPlfeq8P8zgdH8P23WtkZUdrmR6CDYKIz1kInicNODvA4FrMGqCPaBkt_ZBpvLKgp5RA\r\n' +
+        'User-Agent: axios/1.6.5\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: localhost:8000\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/api/applications',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'localhost',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://localhost:8000/api/applications',
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: connect ECONNREFUSED ::1:8000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -4078,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 8000
+  }
+} rootId=0h0uazy2citbv1g, id=0h0uazy2citbv1g
+2024-01-14T18:11:21.111Z - error: Report render failed
+(because) axiosError: connect ECONNREFUSED ::1:8000
+    at AxiosError.from (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\axios\dist\node\axios.cjs:837:14)
+    at RedirectableRequest.handleRequestError (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\axios\dist\node\axios.cjs:3090:25)
+    at RedirectableRequest.emit (node:events:517:28)
+    at eventHandlers.<computed> (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\follow-redirects\index.js:37:24)
+    at ClientRequest.emit (node:events:517:28)
+    at Socket.socketErrorListener (node:_http_client:501:9)
+    at Socket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  port: 8000,
+  address: '::1',
+  syscall: 'connect',
+  code: 'ECONNREFUSED',
+  errno: -4078,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/x-www-form-urlencoded',
+      Authorization: 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMGQ3ZjlkMDY1NGE4OGY1MTMyOWMwZGZjYWNiZGRiNmY1NzJiNmVhZjhjZTA5MWFhNmQyNDc1NGEwNTMwYWQxYTM0NDAzODc2YWIzNjI5YjMiLCJpYXQiOjE3MDUwNzUwNTMuOTk1NDIxLCJuYmYiOjE3MDUwNzUwNTMuOTk1NDI1LCJleHAiOjE3MzY2OTc0NTMuNTQwNjg0LCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.o2vFrmAjnxr5Quk3qeEYgw6CK7OzXQ3qzOumUSYo1jaav4k-oOmhrbdmvz6_ZI0921V7srq2sAbmxxujbpgtGreqqRkSO4-eH2p86yOWLf5FBoB-5TBjCn1xJMqq2Nuaubb8XbwQCbQ2lSV8LUjseg7RF46Dt6d49TPpINDh_qtzI2q07BZPcLWbmVGUz6bP52LAbeJl_K3DaVE6jJS6b3TikXIAweIMUttE5IMA1zJRT_RB6AkRAkRk79KuGdwWiHROrqE95ZM5h-_T77uqafD6eR0UPR-eZuRWLzAGsDOXL8n56c41kLZtrLfRyUJQ9GXMT2jvmwNX18XyBo8gU6SjgK1lnffUqdAkWYvEvRUZUOgbJjoSh85kuFop1d9M4ShXP8dUDShP31Odk0550fAI1iBLI32BO7r50IbxGoaIBinZN78zCmSkZ0_DxrlApj9nl405HSoM724ZuRRMTAOt1k0TTd1KdGNuo-Q1JkkW7vqtnrMdDbbNThbhkLlivXqSBPPF8RONApBmQMDayQq5HJlQHhyECsnDuR2m1OXoagnSoLVl_UQDHtDRmBah3AnxCj2VB-HdEpqPg5z8JoTbhUfSNfh6XZg1kWUmPlfeq8P8zgdH8P23WtkZUdrmR6CDYKIz1kInicNODvA4FrMGqCPaBkt_ZBpvLKgp5RA',
+      'User-Agent': 'axios/1.6.5',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    method: 'get',
+    url: 'http://localhost:8000/api/applications',
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: true,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 0,
+      constructed: true,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: true,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      [Symbol(kOnFinished)]: []
+    },
+    _events: [Object: null prototype] {
+      response: [Function: handleResponse],
+      error: [Function: handleRequestError],
+      socket: [Function: handleRequestSocket]
+    },
+    _eventsCount: 3,
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 21,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/api/applications',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'localhost',
+      port: '8000',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/api/applications'
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 0,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /api/applications HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMGQ3ZjlkMDY1NGE4OGY1MTMyOWMwZGZjYWNiZGRiNmY1NzJiNmVhZjhjZTA5MWFhNmQyNDc1NGEwNTMwYWQxYTM0NDAzODc2YWIzNjI5YjMiLCJpYXQiOjE3MDUwNzUwNTMuOTk1NDIxLCJuYmYiOjE3MDUwNzUwNTMuOTk1NDI1LCJleHAiOjE3MzY2OTc0NTMuNTQwNjg0LCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.o2vFrmAjnxr5Quk3qeEYgw6CK7OzXQ3qzOumUSYo1jaav4k-oOmhrbdmvz6_ZI0921V7srq2sAbmxxujbpgtGreqqRkSO4-eH2p86yOWLf5FBoB-5TBjCn1xJMqq2Nuaubb8XbwQCbQ2lSV8LUjseg7RF46Dt6d49TPpINDh_qtzI2q07BZPcLWbmVGUz6bP52LAbeJl_K3DaVE6jJS6b3TikXIAweIMUttE5IMA1zJRT_RB6AkRAkRk79KuGdwWiHROrqE95ZM5h-_T77uqafD6eR0UPR-eZuRWLzAGsDOXL8n56c41kLZtrLfRyUJQ9GXMT2jvmwNX18XyBo8gU6SjgK1lnffUqdAkWYvEvRUZUOgbJjoSh85kuFop1d9M4ShXP8dUDShP31Odk0550fAI1iBLI32BO7r50IbxGoaIBinZN78zCmSkZ0_DxrlApj9nl405HSoM724ZuRRMTAOt1k0TTd1KdGNuo-Q1JkkW7vqtnrMdDbbNThbhkLlivXqSBPPF8RONApBmQMDayQq5HJlQHhyECsnDuR2m1OXoagnSoLVl_UQDHtDRmBah3AnxCj2VB-HdEpqPg5z8JoTbhUfSNfh6XZg1kWUmPlfeq8P8zgdH8P23WtkZUdrmR6CDYKIz1kInicNODvA4FrMGqCPaBkt_ZBpvLKgp5RA\r\n' +
+        'User-Agent: axios/1.6.5\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: localhost:8000\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/api/applications',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'localhost',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://localhost:8000/api/applications',
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: connect ECONNREFUSED ::1:8000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -4078,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 8000
+  }
+} rootId=ank1lidx6wl5edc, id=ank1lidx6wl5edc
+2024-01-14T18:11:54.243Z - error: Report render failed
+(because) axiosError: connect ECONNREFUSED ::1:8000
+    at AxiosError.from (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\axios\dist\node\axios.cjs:837:14)
+    at RedirectableRequest.handleRequestError (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\axios\dist\node\axios.cjs:3090:25)
+    at RedirectableRequest.emit (node:events:517:28)
+    at eventHandlers.<computed> (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\follow-redirects\index.js:37:24)
+    at ClientRequest.emit (node:events:517:28)
+    at Socket.socketErrorListener (node:_http_client:501:9)
+    at Socket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  port: 8000,
+  address: '::1',
+  syscall: 'connect',
+  code: 'ECONNREFUSED',
+  errno: -4078,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/x-www-form-urlencoded',
+      Authorization: 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMGQ3ZjlkMDY1NGE4OGY1MTMyOWMwZGZjYWNiZGRiNmY1NzJiNmVhZjhjZTA5MWFhNmQyNDc1NGEwNTMwYWQxYTM0NDAzODc2YWIzNjI5YjMiLCJpYXQiOjE3MDUwNzUwNTMuOTk1NDIxLCJuYmYiOjE3MDUwNzUwNTMuOTk1NDI1LCJleHAiOjE3MzY2OTc0NTMuNTQwNjg0LCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.o2vFrmAjnxr5Quk3qeEYgw6CK7OzXQ3qzOumUSYo1jaav4k-oOmhrbdmvz6_ZI0921V7srq2sAbmxxujbpgtGreqqRkSO4-eH2p86yOWLf5FBoB-5TBjCn1xJMqq2Nuaubb8XbwQCbQ2lSV8LUjseg7RF46Dt6d49TPpINDh_qtzI2q07BZPcLWbmVGUz6bP52LAbeJl_K3DaVE6jJS6b3TikXIAweIMUttE5IMA1zJRT_RB6AkRAkRk79KuGdwWiHROrqE95ZM5h-_T77uqafD6eR0UPR-eZuRWLzAGsDOXL8n56c41kLZtrLfRyUJQ9GXMT2jvmwNX18XyBo8gU6SjgK1lnffUqdAkWYvEvRUZUOgbJjoSh85kuFop1d9M4ShXP8dUDShP31Odk0550fAI1iBLI32BO7r50IbxGoaIBinZN78zCmSkZ0_DxrlApj9nl405HSoM724ZuRRMTAOt1k0TTd1KdGNuo-Q1JkkW7vqtnrMdDbbNThbhkLlivXqSBPPF8RONApBmQMDayQq5HJlQHhyECsnDuR2m1OXoagnSoLVl_UQDHtDRmBah3AnxCj2VB-HdEpqPg5z8JoTbhUfSNfh6XZg1kWUmPlfeq8P8zgdH8P23WtkZUdrmR6CDYKIz1kInicNODvA4FrMGqCPaBkt_ZBpvLKgp5RA',
+      'User-Agent': 'axios/1.6.5',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    method: 'get',
+    url: 'http://localhost:8000/api/applications',
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: true,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 0,
+      constructed: true,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: true,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      [Symbol(kOnFinished)]: []
+    },
+    _events: [Object: null prototype] {
+      response: [Function: handleResponse],
+      error: [Function: handleRequestError],
+      socket: [Function: handleRequestSocket]
+    },
+    _eventsCount: 3,
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 21,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/api/applications',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'localhost',
+      port: '8000',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/api/applications'
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 0,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /api/applications HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMGQ3ZjlkMDY1NGE4OGY1MTMyOWMwZGZjYWNiZGRiNmY1NzJiNmVhZjhjZTA5MWFhNmQyNDc1NGEwNTMwYWQxYTM0NDAzODc2YWIzNjI5YjMiLCJpYXQiOjE3MDUwNzUwNTMuOTk1NDIxLCJuYmYiOjE3MDUwNzUwNTMuOTk1NDI1LCJleHAiOjE3MzY2OTc0NTMuNTQwNjg0LCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.o2vFrmAjnxr5Quk3qeEYgw6CK7OzXQ3qzOumUSYo1jaav4k-oOmhrbdmvz6_ZI0921V7srq2sAbmxxujbpgtGreqqRkSO4-eH2p86yOWLf5FBoB-5TBjCn1xJMqq2Nuaubb8XbwQCbQ2lSV8LUjseg7RF46Dt6d49TPpINDh_qtzI2q07BZPcLWbmVGUz6bP52LAbeJl_K3DaVE6jJS6b3TikXIAweIMUttE5IMA1zJRT_RB6AkRAkRk79KuGdwWiHROrqE95ZM5h-_T77uqafD6eR0UPR-eZuRWLzAGsDOXL8n56c41kLZtrLfRyUJQ9GXMT2jvmwNX18XyBo8gU6SjgK1lnffUqdAkWYvEvRUZUOgbJjoSh85kuFop1d9M4ShXP8dUDShP31Odk0550fAI1iBLI32BO7r50IbxGoaIBinZN78zCmSkZ0_DxrlApj9nl405HSoM724ZuRRMTAOt1k0TTd1KdGNuo-Q1JkkW7vqtnrMdDbbNThbhkLlivXqSBPPF8RONApBmQMDayQq5HJlQHhyECsnDuR2m1OXoagnSoLVl_UQDHtDRmBah3AnxCj2VB-HdEpqPg5z8JoTbhUfSNfh6XZg1kWUmPlfeq8P8zgdH8P23WtkZUdrmR6CDYKIz1kInicNODvA4FrMGqCPaBkt_ZBpvLKgp5RA\r\n' +
+        'User-Agent: axios/1.6.5\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: localhost:8000\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/api/applications',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'localhost',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://localhost:8000/api/applications',
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: connect ECONNREFUSED ::1:8000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -4078,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 8000
+  }
+} rootId=d28pr81hzxr8zkk, id=d28pr81hzxr8zkk
+2024-01-14T18:23:46.170Z - error: Error during processing request at http://localhost:5488/api/profile/oWh2lldadiOjHSgc/events, details: Error: Timeout when waiting for profile blob to be fully persisted
+    at module.exports (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at MainReporter.createError (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-express\lib\routes.js:286:26
+2024-01-14T18:23:57.188Z - error: Error during processing request at http://localhost:5488/api/profile/oWh2lldadiOjHSgc/events, details: Error: Timeout when waiting for profile blob to be fully persisted
+    at module.exports (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at MainReporter.createError (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-express\lib\routes.js:286:26
+2024-01-14T18:24:19.878Z - error: Report render failed
+(because) axiosError: connect ECONNREFUSED ::1:8000
+    at AxiosError.from (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\axios\dist\node\axios.cjs:837:14)
+    at RedirectableRequest.handleRequestError (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\axios\dist\node\axios.cjs:3090:25)
+    at RedirectableRequest.emit (node:events:517:28)
+    at eventHandlers.<computed> (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\follow-redirects\index.js:37:24)
+    at ClientRequest.emit (node:events:517:28)
+    at Socket.socketErrorListener (node:_http_client:501:9)
+    at Socket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  port: 8000,
+  address: '::1',
+  syscall: 'connect',
+  code: 'ECONNREFUSED',
+  errno: -4078,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/x-www-form-urlencoded',
+      Authorization: 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMGQ3ZjlkMDY1NGE4OGY1MTMyOWMwZGZjYWNiZGRiNmY1NzJiNmVhZjhjZTA5MWFhNmQyNDc1NGEwNTMwYWQxYTM0NDAzODc2YWIzNjI5YjMiLCJpYXQiOjE3MDUwNzUwNTMuOTk1NDIxLCJuYmYiOjE3MDUwNzUwNTMuOTk1NDI1LCJleHAiOjE3MzY2OTc0NTMuNTQwNjg0LCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.o2vFrmAjnxr5Quk3qeEYgw6CK7OzXQ3qzOumUSYo1jaav4k-oOmhrbdmvz6_ZI0921V7srq2sAbmxxujbpgtGreqqRkSO4-eH2p86yOWLf5FBoB-5TBjCn1xJMqq2Nuaubb8XbwQCbQ2lSV8LUjseg7RF46Dt6d49TPpINDh_qtzI2q07BZPcLWbmVGUz6bP52LAbeJl_K3DaVE6jJS6b3TikXIAweIMUttE5IMA1zJRT_RB6AkRAkRk79KuGdwWiHROrqE95ZM5h-_T77uqafD6eR0UPR-eZuRWLzAGsDOXL8n56c41kLZtrLfRyUJQ9GXMT2jvmwNX18XyBo8gU6SjgK1lnffUqdAkWYvEvRUZUOgbJjoSh85kuFop1d9M4ShXP8dUDShP31Odk0550fAI1iBLI32BO7r50IbxGoaIBinZN78zCmSkZ0_DxrlApj9nl405HSoM724ZuRRMTAOt1k0TTd1KdGNuo-Q1JkkW7vqtnrMdDbbNThbhkLlivXqSBPPF8RONApBmQMDayQq5HJlQHhyECsnDuR2m1OXoagnSoLVl_UQDHtDRmBah3AnxCj2VB-HdEpqPg5z8JoTbhUfSNfh6XZg1kWUmPlfeq8P8zgdH8P23WtkZUdrmR6CDYKIz1kInicNODvA4FrMGqCPaBkt_ZBpvLKgp5RA',
+      'User-Agent': 'axios/1.6.5',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    method: 'get',
+    url: 'http://localhost:8000/api/applications',
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: true,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 0,
+      constructed: true,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: true,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      [Symbol(kOnFinished)]: []
+    },
+    _events: [Object: null prototype] {
+      response: [Function: handleResponse],
+      error: [Function: handleRequestError],
+      socket: [Function: handleRequestSocket]
+    },
+    _eventsCount: 3,
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 21,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/api/applications',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'localhost',
+      port: '8000',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/api/applications'
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 0,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /api/applications HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMGQ3ZjlkMDY1NGE4OGY1MTMyOWMwZGZjYWNiZGRiNmY1NzJiNmVhZjhjZTA5MWFhNmQyNDc1NGEwNTMwYWQxYTM0NDAzODc2YWIzNjI5YjMiLCJpYXQiOjE3MDUwNzUwNTMuOTk1NDIxLCJuYmYiOjE3MDUwNzUwNTMuOTk1NDI1LCJleHAiOjE3MzY2OTc0NTMuNTQwNjg0LCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.o2vFrmAjnxr5Quk3qeEYgw6CK7OzXQ3qzOumUSYo1jaav4k-oOmhrbdmvz6_ZI0921V7srq2sAbmxxujbpgtGreqqRkSO4-eH2p86yOWLf5FBoB-5TBjCn1xJMqq2Nuaubb8XbwQCbQ2lSV8LUjseg7RF46Dt6d49TPpINDh_qtzI2q07BZPcLWbmVGUz6bP52LAbeJl_K3DaVE6jJS6b3TikXIAweIMUttE5IMA1zJRT_RB6AkRAkRk79KuGdwWiHROrqE95ZM5h-_T77uqafD6eR0UPR-eZuRWLzAGsDOXL8n56c41kLZtrLfRyUJQ9GXMT2jvmwNX18XyBo8gU6SjgK1lnffUqdAkWYvEvRUZUOgbJjoSh85kuFop1d9M4ShXP8dUDShP31Odk0550fAI1iBLI32BO7r50IbxGoaIBinZN78zCmSkZ0_DxrlApj9nl405HSoM724ZuRRMTAOt1k0TTd1KdGNuo-Q1JkkW7vqtnrMdDbbNThbhkLlivXqSBPPF8RONApBmQMDayQq5HJlQHhyECsnDuR2m1OXoagnSoLVl_UQDHtDRmBah3AnxCj2VB-HdEpqPg5z8JoTbhUfSNfh6XZg1kWUmPlfeq8P8zgdH8P23WtkZUdrmR6CDYKIz1kInicNODvA4FrMGqCPaBkt_ZBpvLKgp5RA\r\n' +
+        'User-Agent: axios/1.6.5\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: localhost:8000\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/api/applications',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'localhost',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://localhost:8000/api/applications',
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: connect ECONNREFUSED ::1:8000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -4078,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 8000
+  }
+} rootId=fggja2wvdmejbt7, id=fggja2wvdmejbt7
+2024-01-14T18:24:36.632Z - error: Report render failed
+(because) axiosError: connect ECONNREFUSED ::1:8000
+    at AxiosError.from (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\axios\dist\node\axios.cjs:837:14)
+    at RedirectableRequest.handleRequestError (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\axios\dist\node\axios.cjs:3090:25)
+    at RedirectableRequest.emit (node:events:517:28)
+    at eventHandlers.<computed> (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\follow-redirects\index.js:37:24)
+    at ClientRequest.emit (node:events:517:28)
+    at Socket.socketErrorListener (node:_http_client:501:9)
+    at Socket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  port: 8000,
+  address: '::1',
+  syscall: 'connect',
+  code: 'ECONNREFUSED',
+  errno: -4078,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/x-www-form-urlencoded',
+      Authorization: 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMGQ3ZjlkMDY1NGE4OGY1MTMyOWMwZGZjYWNiZGRiNmY1NzJiNmVhZjhjZTA5MWFhNmQyNDc1NGEwNTMwYWQxYTM0NDAzODc2YWIzNjI5YjMiLCJpYXQiOjE3MDUwNzUwNTMuOTk1NDIxLCJuYmYiOjE3MDUwNzUwNTMuOTk1NDI1LCJleHAiOjE3MzY2OTc0NTMuNTQwNjg0LCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.o2vFrmAjnxr5Quk3qeEYgw6CK7OzXQ3qzOumUSYo1jaav4k-oOmhrbdmvz6_ZI0921V7srq2sAbmxxujbpgtGreqqRkSO4-eH2p86yOWLf5FBoB-5TBjCn1xJMqq2Nuaubb8XbwQCbQ2lSV8LUjseg7RF46Dt6d49TPpINDh_qtzI2q07BZPcLWbmVGUz6bP52LAbeJl_K3DaVE6jJS6b3TikXIAweIMUttE5IMA1zJRT_RB6AkRAkRk79KuGdwWiHROrqE95ZM5h-_T77uqafD6eR0UPR-eZuRWLzAGsDOXL8n56c41kLZtrLfRyUJQ9GXMT2jvmwNX18XyBo8gU6SjgK1lnffUqdAkWYvEvRUZUOgbJjoSh85kuFop1d9M4ShXP8dUDShP31Odk0550fAI1iBLI32BO7r50IbxGoaIBinZN78zCmSkZ0_DxrlApj9nl405HSoM724ZuRRMTAOt1k0TTd1KdGNuo-Q1JkkW7vqtnrMdDbbNThbhkLlivXqSBPPF8RONApBmQMDayQq5HJlQHhyECsnDuR2m1OXoagnSoLVl_UQDHtDRmBah3AnxCj2VB-HdEpqPg5z8JoTbhUfSNfh6XZg1kWUmPlfeq8P8zgdH8P23WtkZUdrmR6CDYKIz1kInicNODvA4FrMGqCPaBkt_ZBpvLKgp5RA',
+      'User-Agent': 'axios/1.6.5',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    method: 'get',
+    url: 'http://localhost:8000/api/applications',
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: true,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 0,
+      constructed: true,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: true,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      [Symbol(kOnFinished)]: []
+    },
+    _events: [Object: null prototype] {
+      response: [Function: handleResponse],
+      error: [Function: handleRequestError],
+      socket: [Function: handleRequestSocket]
+    },
+    _eventsCount: 3,
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 21,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/api/applications',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'localhost',
+      port: '8000',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/api/applications'
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 0,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /api/applications HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMGQ3ZjlkMDY1NGE4OGY1MTMyOWMwZGZjYWNiZGRiNmY1NzJiNmVhZjhjZTA5MWFhNmQyNDc1NGEwNTMwYWQxYTM0NDAzODc2YWIzNjI5YjMiLCJpYXQiOjE3MDUwNzUwNTMuOTk1NDIxLCJuYmYiOjE3MDUwNzUwNTMuOTk1NDI1LCJleHAiOjE3MzY2OTc0NTMuNTQwNjg0LCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.o2vFrmAjnxr5Quk3qeEYgw6CK7OzXQ3qzOumUSYo1jaav4k-oOmhrbdmvz6_ZI0921V7srq2sAbmxxujbpgtGreqqRkSO4-eH2p86yOWLf5FBoB-5TBjCn1xJMqq2Nuaubb8XbwQCbQ2lSV8LUjseg7RF46Dt6d49TPpINDh_qtzI2q07BZPcLWbmVGUz6bP52LAbeJl_K3DaVE6jJS6b3TikXIAweIMUttE5IMA1zJRT_RB6AkRAkRk79KuGdwWiHROrqE95ZM5h-_T77uqafD6eR0UPR-eZuRWLzAGsDOXL8n56c41kLZtrLfRyUJQ9GXMT2jvmwNX18XyBo8gU6SjgK1lnffUqdAkWYvEvRUZUOgbJjoSh85kuFop1d9M4ShXP8dUDShP31Odk0550fAI1iBLI32BO7r50IbxGoaIBinZN78zCmSkZ0_DxrlApj9nl405HSoM724ZuRRMTAOt1k0TTd1KdGNuo-Q1JkkW7vqtnrMdDbbNThbhkLlivXqSBPPF8RONApBmQMDayQq5HJlQHhyECsnDuR2m1OXoagnSoLVl_UQDHtDRmBah3AnxCj2VB-HdEpqPg5z8JoTbhUfSNfh6XZg1kWUmPlfeq8P8zgdH8P23WtkZUdrmR6CDYKIz1kInicNODvA4FrMGqCPaBkt_ZBpvLKgp5RA\r\n' +
+        'User-Agent: axios/1.6.5\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: localhost:8000\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/api/applications',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'localhost',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://localhost:8000/api/applications',
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: connect ECONNREFUSED ::1:8000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -4078,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 8000
+  }
+} rootId=appr7o9911lepm3, id=appr7o9911lepm3
+2024-01-14T18:46:39.867Z - error: Report render failed
+(because) error when evaluating custom script /Apps/apps-script
+connect ECONNREFUSED ::1:8000
+Error: connect ECONNREFUSED ::1:8000
+    at AxiosError.from (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\axios\dist\node\axios.cjs:837:14)
+    at RedirectableRequest.handleRequestError (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\axios\dist\node\axios.cjs:3090:25)
+    at RedirectableRequest.emit (node:events:517:28)
+    at eventHandlers.<computed> (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\follow-redirects\index.js:37:24)
+    at ClientRequest.emit (node:events:517:28)
+    at Socket.socketErrorListener (node:_http_client:501:9)
+    at Socket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) rootId=uun7bdjsc86pcrf, id=uun7bdjsc86pcrf
+2024-01-14T18:58:45.777Z - error: Report render failed
+(because) error when evaluating custom script /Apps/apps-script
+connect ECONNREFUSED ::1:8000
+Error: connect ECONNREFUSED ::1:8000
+    at AxiosError.from (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\axios\dist\node\axios.cjs:837:14)
+    at RedirectableRequest.handleRequestError (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\axios\dist\node\axios.cjs:3090:25)
+    at RedirectableRequest.emit (node:events:517:28)
+    at eventHandlers.<computed> (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\follow-redirects\index.js:37:24)
+    at ClientRequest.emit (node:events:517:28)
+    at Socket.socketErrorListener (node:_http_client:501:9)
+    at Socket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) rootId=428wxl4ayxqazns, id=428wxl4ayxqazns
+2024-01-14T19:47:57.539Z - error: Report render failed
+(because) axiosError: connect ECONNREFUSED ::1:8000
+    at AxiosError.from (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\axios\dist\node\axios.cjs:837:14)
+    at RedirectableRequest.handleRequestError (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\axios\dist\node\axios.cjs:3090:25)
+    at RedirectableRequest.emit (node:events:517:28)
+    at eventHandlers.<computed> (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\follow-redirects\index.js:37:24)
+    at ClientRequest.emit (node:events:517:28)
+    at Socket.socketErrorListener (node:_http_client:501:9)
+    at Socket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  port: 8000,
+  address: '::1',
+  syscall: 'connect',
+  code: 'ECONNREFUSED',
+  errno: -4078,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/x-www-form-urlencoded',
+      Authorization: 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMGQ3ZjlkMDY1NGE4OGY1MTMyOWMwZGZjYWNiZGRiNmY1NzJiNmVhZjhjZTA5MWFhNmQyNDc1NGEwNTMwYWQxYTM0NDAzODc2YWIzNjI5YjMiLCJpYXQiOjE3MDUwNzUwNTMuOTk1NDIxLCJuYmYiOjE3MDUwNzUwNTMuOTk1NDI1LCJleHAiOjE3MzY2OTc0NTMuNTQwNjg0LCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.o2vFrmAjnxr5Quk3qeEYgw6CK7OzXQ3qzOumUSYo1jaav4k-oOmhrbdmvz6_ZI0921V7srq2sAbmxxujbpgtGreqqRkSO4-eH2p86yOWLf5FBoB-5TBjCn1xJMqq2Nuaubb8XbwQCbQ2lSV8LUjseg7RF46Dt6d49TPpINDh_qtzI2q07BZPcLWbmVGUz6bP52LAbeJl_K3DaVE6jJS6b3TikXIAweIMUttE5IMA1zJRT_RB6AkRAkRk79KuGdwWiHROrqE95ZM5h-_T77uqafD6eR0UPR-eZuRWLzAGsDOXL8n56c41kLZtrLfRyUJQ9GXMT2jvmwNX18XyBo8gU6SjgK1lnffUqdAkWYvEvRUZUOgbJjoSh85kuFop1d9M4ShXP8dUDShP31Odk0550fAI1iBLI32BO7r50IbxGoaIBinZN78zCmSkZ0_DxrlApj9nl405HSoM724ZuRRMTAOt1k0TTd1KdGNuo-Q1JkkW7vqtnrMdDbbNThbhkLlivXqSBPPF8RONApBmQMDayQq5HJlQHhyECsnDuR2m1OXoagnSoLVl_UQDHtDRmBah3AnxCj2VB-HdEpqPg5z8JoTbhUfSNfh6XZg1kWUmPlfeq8P8zgdH8P23WtkZUdrmR6CDYKIz1kInicNODvA4FrMGqCPaBkt_ZBpvLKgp5RA',
+      'User-Agent': 'axios/1.6.5',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    method: 'get',
+    url: 'http://localhost:8000/api/applications',
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: true,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 0,
+      constructed: true,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: true,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      [Symbol(kOnFinished)]: []
+    },
+    _events: [Object: null prototype] {
+      response: [Function: handleResponse],
+      error: [Function: handleRequestError],
+      socket: [Function: handleRequestSocket]
+    },
+    _eventsCount: 3,
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 21,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/api/applications',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'localhost',
+      port: '8000',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/api/applications'
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 0,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /api/applications HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMGQ3ZjlkMDY1NGE4OGY1MTMyOWMwZGZjYWNiZGRiNmY1NzJiNmVhZjhjZTA5MWFhNmQyNDc1NGEwNTMwYWQxYTM0NDAzODc2YWIzNjI5YjMiLCJpYXQiOjE3MDUwNzUwNTMuOTk1NDIxLCJuYmYiOjE3MDUwNzUwNTMuOTk1NDI1LCJleHAiOjE3MzY2OTc0NTMuNTQwNjg0LCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.o2vFrmAjnxr5Quk3qeEYgw6CK7OzXQ3qzOumUSYo1jaav4k-oOmhrbdmvz6_ZI0921V7srq2sAbmxxujbpgtGreqqRkSO4-eH2p86yOWLf5FBoB-5TBjCn1xJMqq2Nuaubb8XbwQCbQ2lSV8LUjseg7RF46Dt6d49TPpINDh_qtzI2q07BZPcLWbmVGUz6bP52LAbeJl_K3DaVE6jJS6b3TikXIAweIMUttE5IMA1zJRT_RB6AkRAkRk79KuGdwWiHROrqE95ZM5h-_T77uqafD6eR0UPR-eZuRWLzAGsDOXL8n56c41kLZtrLfRyUJQ9GXMT2jvmwNX18XyBo8gU6SjgK1lnffUqdAkWYvEvRUZUOgbJjoSh85kuFop1d9M4ShXP8dUDShP31Odk0550fAI1iBLI32BO7r50IbxGoaIBinZN78zCmSkZ0_DxrlApj9nl405HSoM724ZuRRMTAOt1k0TTd1KdGNuo-Q1JkkW7vqtnrMdDbbNThbhkLlivXqSBPPF8RONApBmQMDayQq5HJlQHhyECsnDuR2m1OXoagnSoLVl_UQDHtDRmBah3AnxCj2VB-HdEpqPg5z8JoTbhUfSNfh6XZg1kWUmPlfeq8P8zgdH8P23WtkZUdrmR6CDYKIz1kInicNODvA4FrMGqCPaBkt_ZBpvLKgp5RA\r\n' +
+        'User-Agent: axios/1.6.5\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: localhost:8000\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/api/applications',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'localhost',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://localhost:8000/api/applications',
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: connect ECONNREFUSED ::1:8000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -4078,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 8000
+  }
+} rootId=s299qjbanpway5g, id=s299qjbanpway5g
+2024-01-14T19:48:02.806Z - error: Report render failed
+(because) axiosError: connect ECONNREFUSED ::1:8000
+    at AxiosError.from (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\axios\dist\node\axios.cjs:837:14)
+    at RedirectableRequest.handleRequestError (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\axios\dist\node\axios.cjs:3090:25)
+    at RedirectableRequest.emit (node:events:517:28)
+    at eventHandlers.<computed> (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\follow-redirects\index.js:37:24)
+    at ClientRequest.emit (node:events:517:28)
+    at Socket.socketErrorListener (node:_http_client:501:9)
+    at Socket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  port: 8000,
+  address: '::1',
+  syscall: 'connect',
+  code: 'ECONNREFUSED',
+  errno: -4078,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/x-www-form-urlencoded',
+      Authorization: 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMGQ3ZjlkMDY1NGE4OGY1MTMyOWMwZGZjYWNiZGRiNmY1NzJiNmVhZjhjZTA5MWFhNmQyNDc1NGEwNTMwYWQxYTM0NDAzODc2YWIzNjI5YjMiLCJpYXQiOjE3MDUwNzUwNTMuOTk1NDIxLCJuYmYiOjE3MDUwNzUwNTMuOTk1NDI1LCJleHAiOjE3MzY2OTc0NTMuNTQwNjg0LCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.o2vFrmAjnxr5Quk3qeEYgw6CK7OzXQ3qzOumUSYo1jaav4k-oOmhrbdmvz6_ZI0921V7srq2sAbmxxujbpgtGreqqRkSO4-eH2p86yOWLf5FBoB-5TBjCn1xJMqq2Nuaubb8XbwQCbQ2lSV8LUjseg7RF46Dt6d49TPpINDh_qtzI2q07BZPcLWbmVGUz6bP52LAbeJl_K3DaVE6jJS6b3TikXIAweIMUttE5IMA1zJRT_RB6AkRAkRk79KuGdwWiHROrqE95ZM5h-_T77uqafD6eR0UPR-eZuRWLzAGsDOXL8n56c41kLZtrLfRyUJQ9GXMT2jvmwNX18XyBo8gU6SjgK1lnffUqdAkWYvEvRUZUOgbJjoSh85kuFop1d9M4ShXP8dUDShP31Odk0550fAI1iBLI32BO7r50IbxGoaIBinZN78zCmSkZ0_DxrlApj9nl405HSoM724ZuRRMTAOt1k0TTd1KdGNuo-Q1JkkW7vqtnrMdDbbNThbhkLlivXqSBPPF8RONApBmQMDayQq5HJlQHhyECsnDuR2m1OXoagnSoLVl_UQDHtDRmBah3AnxCj2VB-HdEpqPg5z8JoTbhUfSNfh6XZg1kWUmPlfeq8P8zgdH8P23WtkZUdrmR6CDYKIz1kInicNODvA4FrMGqCPaBkt_ZBpvLKgp5RA',
+      'User-Agent': 'axios/1.6.5',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    method: 'get',
+    url: 'http://localhost:8000/api/applications',
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: true,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 0,
+      constructed: true,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: true,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      [Symbol(kOnFinished)]: []
+    },
+    _events: [Object: null prototype] {
+      response: [Function: handleResponse],
+      error: [Function: handleRequestError],
+      socket: [Function: handleRequestSocket]
+    },
+    _eventsCount: 3,
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 21,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/api/applications',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'localhost',
+      port: '8000',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/api/applications'
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 0,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /api/applications HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMGQ3ZjlkMDY1NGE4OGY1MTMyOWMwZGZjYWNiZGRiNmY1NzJiNmVhZjhjZTA5MWFhNmQyNDc1NGEwNTMwYWQxYTM0NDAzODc2YWIzNjI5YjMiLCJpYXQiOjE3MDUwNzUwNTMuOTk1NDIxLCJuYmYiOjE3MDUwNzUwNTMuOTk1NDI1LCJleHAiOjE3MzY2OTc0NTMuNTQwNjg0LCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.o2vFrmAjnxr5Quk3qeEYgw6CK7OzXQ3qzOumUSYo1jaav4k-oOmhrbdmvz6_ZI0921V7srq2sAbmxxujbpgtGreqqRkSO4-eH2p86yOWLf5FBoB-5TBjCn1xJMqq2Nuaubb8XbwQCbQ2lSV8LUjseg7RF46Dt6d49TPpINDh_qtzI2q07BZPcLWbmVGUz6bP52LAbeJl_K3DaVE6jJS6b3TikXIAweIMUttE5IMA1zJRT_RB6AkRAkRk79KuGdwWiHROrqE95ZM5h-_T77uqafD6eR0UPR-eZuRWLzAGsDOXL8n56c41kLZtrLfRyUJQ9GXMT2jvmwNX18XyBo8gU6SjgK1lnffUqdAkWYvEvRUZUOgbJjoSh85kuFop1d9M4ShXP8dUDShP31Odk0550fAI1iBLI32BO7r50IbxGoaIBinZN78zCmSkZ0_DxrlApj9nl405HSoM724ZuRRMTAOt1k0TTd1KdGNuo-Q1JkkW7vqtnrMdDbbNThbhkLlivXqSBPPF8RONApBmQMDayQq5HJlQHhyECsnDuR2m1OXoagnSoLVl_UQDHtDRmBah3AnxCj2VB-HdEpqPg5z8JoTbhUfSNfh6XZg1kWUmPlfeq8P8zgdH8P23WtkZUdrmR6CDYKIz1kInicNODvA4FrMGqCPaBkt_ZBpvLKgp5RA\r\n' +
+        'User-Agent: axios/1.6.5\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: localhost:8000\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/api/applications',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'localhost',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://localhost:8000/api/applications',
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: connect ECONNREFUSED ::1:8000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -4078,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 8000
+  }
+} rootId=sns3ar4p5lk3r3j, id=sns3ar4p5lk3r3j
+2024-01-15T15:24:23.681Z - error: Report render failed
+(because) axiosError: connect ECONNREFUSED ::1:8000
+    at AxiosError.from (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\axios\dist\node\axios.cjs:837:14)
+    at RedirectableRequest.handleRequestError (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\axios\dist\node\axios.cjs:3090:25)
+    at RedirectableRequest.emit (node:events:517:28)
+    at eventHandlers.<computed> (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\follow-redirects\index.js:37:24)
+    at ClientRequest.emit (node:events:517:28)
+    at Socket.socketErrorListener (node:_http_client:501:9)
+    at Socket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  port: 8000,
+  address: '::1',
+  syscall: 'connect',
+  code: 'ECONNREFUSED',
+  errno: -4078,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/x-www-form-urlencoded',
+      Authorization: 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMGQ3ZjlkMDY1NGE4OGY1MTMyOWMwZGZjYWNiZGRiNmY1NzJiNmVhZjhjZTA5MWFhNmQyNDc1NGEwNTMwYWQxYTM0NDAzODc2YWIzNjI5YjMiLCJpYXQiOjE3MDUwNzUwNTMuOTk1NDIxLCJuYmYiOjE3MDUwNzUwNTMuOTk1NDI1LCJleHAiOjE3MzY2OTc0NTMuNTQwNjg0LCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.o2vFrmAjnxr5Quk3qeEYgw6CK7OzXQ3qzOumUSYo1jaav4k-oOmhrbdmvz6_ZI0921V7srq2sAbmxxujbpgtGreqqRkSO4-eH2p86yOWLf5FBoB-5TBjCn1xJMqq2Nuaubb8XbwQCbQ2lSV8LUjseg7RF46Dt6d49TPpINDh_qtzI2q07BZPcLWbmVGUz6bP52LAbeJl_K3DaVE6jJS6b3TikXIAweIMUttE5IMA1zJRT_RB6AkRAkRk79KuGdwWiHROrqE95ZM5h-_T77uqafD6eR0UPR-eZuRWLzAGsDOXL8n56c41kLZtrLfRyUJQ9GXMT2jvmwNX18XyBo8gU6SjgK1lnffUqdAkWYvEvRUZUOgbJjoSh85kuFop1d9M4ShXP8dUDShP31Odk0550fAI1iBLI32BO7r50IbxGoaIBinZN78zCmSkZ0_DxrlApj9nl405HSoM724ZuRRMTAOt1k0TTd1KdGNuo-Q1JkkW7vqtnrMdDbbNThbhkLlivXqSBPPF8RONApBmQMDayQq5HJlQHhyECsnDuR2m1OXoagnSoLVl_UQDHtDRmBah3AnxCj2VB-HdEpqPg5z8JoTbhUfSNfh6XZg1kWUmPlfeq8P8zgdH8P23WtkZUdrmR6CDYKIz1kInicNODvA4FrMGqCPaBkt_ZBpvLKgp5RA',
+      'User-Agent': 'axios/1.6.5',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    method: 'get',
+    url: 'http://localhost:8000/api/applications',
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: true,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 0,
+      constructed: true,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: true,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      [Symbol(kOnFinished)]: []
+    },
+    _events: [Object: null prototype] {
+      response: [Function: handleResponse],
+      error: [Function: handleRequestError],
+      socket: [Function: handleRequestSocket]
+    },
+    _eventsCount: 3,
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 21,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/api/applications',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'localhost',
+      port: '8000',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/api/applications'
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 0,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /api/applications HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMGQ3ZjlkMDY1NGE4OGY1MTMyOWMwZGZjYWNiZGRiNmY1NzJiNmVhZjhjZTA5MWFhNmQyNDc1NGEwNTMwYWQxYTM0NDAzODc2YWIzNjI5YjMiLCJpYXQiOjE3MDUwNzUwNTMuOTk1NDIxLCJuYmYiOjE3MDUwNzUwNTMuOTk1NDI1LCJleHAiOjE3MzY2OTc0NTMuNTQwNjg0LCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.o2vFrmAjnxr5Quk3qeEYgw6CK7OzXQ3qzOumUSYo1jaav4k-oOmhrbdmvz6_ZI0921V7srq2sAbmxxujbpgtGreqqRkSO4-eH2p86yOWLf5FBoB-5TBjCn1xJMqq2Nuaubb8XbwQCbQ2lSV8LUjseg7RF46Dt6d49TPpINDh_qtzI2q07BZPcLWbmVGUz6bP52LAbeJl_K3DaVE6jJS6b3TikXIAweIMUttE5IMA1zJRT_RB6AkRAkRk79KuGdwWiHROrqE95ZM5h-_T77uqafD6eR0UPR-eZuRWLzAGsDOXL8n56c41kLZtrLfRyUJQ9GXMT2jvmwNX18XyBo8gU6SjgK1lnffUqdAkWYvEvRUZUOgbJjoSh85kuFop1d9M4ShXP8dUDShP31Odk0550fAI1iBLI32BO7r50IbxGoaIBinZN78zCmSkZ0_DxrlApj9nl405HSoM724ZuRRMTAOt1k0TTd1KdGNuo-Q1JkkW7vqtnrMdDbbNThbhkLlivXqSBPPF8RONApBmQMDayQq5HJlQHhyECsnDuR2m1OXoagnSoLVl_UQDHtDRmBah3AnxCj2VB-HdEpqPg5z8JoTbhUfSNfh6XZg1kWUmPlfeq8P8zgdH8P23WtkZUdrmR6CDYKIz1kInicNODvA4FrMGqCPaBkt_ZBpvLKgp5RA\r\n' +
+        'User-Agent: axios/1.6.5\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: localhost:8000\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/api/applications',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'localhost',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://localhost:8000/api/applications',
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: connect ECONNREFUSED ::1:8000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -4078,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 8000
+  }
+} rootId=k59zhw1900b5duj, id=k59zhw1900b5duj
+2024-01-15T15:30:28.812Z - error: Report render failed
+(because) axiosError: connect ECONNREFUSED ::1:8000
+    at AxiosError.from (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\axios\dist\node\axios.cjs:837:14)
+    at RedirectableRequest.handleRequestError (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\axios\dist\node\axios.cjs:3090:25)
+    at RedirectableRequest.emit (node:events:517:28)
+    at eventHandlers.<computed> (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\follow-redirects\index.js:37:24)
+    at ClientRequest.emit (node:events:517:28)
+    at Socket.socketErrorListener (node:_http_client:501:9)
+    at Socket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  port: 8000,
+  address: '::1',
+  syscall: 'connect',
+  code: 'ECONNREFUSED',
+  errno: -4078,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/x-www-form-urlencoded',
+      Authorization: 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMGQ3ZjlkMDY1NGE4OGY1MTMyOWMwZGZjYWNiZGRiNmY1NzJiNmVhZjhjZTA5MWFhNmQyNDc1NGEwNTMwYWQxYTM0NDAzODc2YWIzNjI5YjMiLCJpYXQiOjE3MDUwNzUwNTMuOTk1NDIxLCJuYmYiOjE3MDUwNzUwNTMuOTk1NDI1LCJleHAiOjE3MzY2OTc0NTMuNTQwNjg0LCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.o2vFrmAjnxr5Quk3qeEYgw6CK7OzXQ3qzOumUSYo1jaav4k-oOmhrbdmvz6_ZI0921V7srq2sAbmxxujbpgtGreqqRkSO4-eH2p86yOWLf5FBoB-5TBjCn1xJMqq2Nuaubb8XbwQCbQ2lSV8LUjseg7RF46Dt6d49TPpINDh_qtzI2q07BZPcLWbmVGUz6bP52LAbeJl_K3DaVE6jJS6b3TikXIAweIMUttE5IMA1zJRT_RB6AkRAkRk79KuGdwWiHROrqE95ZM5h-_T77uqafD6eR0UPR-eZuRWLzAGsDOXL8n56c41kLZtrLfRyUJQ9GXMT2jvmwNX18XyBo8gU6SjgK1lnffUqdAkWYvEvRUZUOgbJjoSh85kuFop1d9M4ShXP8dUDShP31Odk0550fAI1iBLI32BO7r50IbxGoaIBinZN78zCmSkZ0_DxrlApj9nl405HSoM724ZuRRMTAOt1k0TTd1KdGNuo-Q1JkkW7vqtnrMdDbbNThbhkLlivXqSBPPF8RONApBmQMDayQq5HJlQHhyECsnDuR2m1OXoagnSoLVl_UQDHtDRmBah3AnxCj2VB-HdEpqPg5z8JoTbhUfSNfh6XZg1kWUmPlfeq8P8zgdH8P23WtkZUdrmR6CDYKIz1kInicNODvA4FrMGqCPaBkt_ZBpvLKgp5RA',
+      'User-Agent': 'axios/1.6.5',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    method: 'get',
+    url: 'http://localhost:8000/api/applications',
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: true,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 0,
+      constructed: true,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: true,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      [Symbol(kOnFinished)]: []
+    },
+    _events: [Object: null prototype] {
+      response: [Function: handleResponse],
+      error: [Function: handleRequestError],
+      socket: [Function: handleRequestSocket]
+    },
+    _eventsCount: 3,
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 21,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/api/applications',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'localhost',
+      port: '8000',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/api/applications'
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 0,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /api/applications HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMGQ3ZjlkMDY1NGE4OGY1MTMyOWMwZGZjYWNiZGRiNmY1NzJiNmVhZjhjZTA5MWFhNmQyNDc1NGEwNTMwYWQxYTM0NDAzODc2YWIzNjI5YjMiLCJpYXQiOjE3MDUwNzUwNTMuOTk1NDIxLCJuYmYiOjE3MDUwNzUwNTMuOTk1NDI1LCJleHAiOjE3MzY2OTc0NTMuNTQwNjg0LCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.o2vFrmAjnxr5Quk3qeEYgw6CK7OzXQ3qzOumUSYo1jaav4k-oOmhrbdmvz6_ZI0921V7srq2sAbmxxujbpgtGreqqRkSO4-eH2p86yOWLf5FBoB-5TBjCn1xJMqq2Nuaubb8XbwQCbQ2lSV8LUjseg7RF46Dt6d49TPpINDh_qtzI2q07BZPcLWbmVGUz6bP52LAbeJl_K3DaVE6jJS6b3TikXIAweIMUttE5IMA1zJRT_RB6AkRAkRk79KuGdwWiHROrqE95ZM5h-_T77uqafD6eR0UPR-eZuRWLzAGsDOXL8n56c41kLZtrLfRyUJQ9GXMT2jvmwNX18XyBo8gU6SjgK1lnffUqdAkWYvEvRUZUOgbJjoSh85kuFop1d9M4ShXP8dUDShP31Odk0550fAI1iBLI32BO7r50IbxGoaIBinZN78zCmSkZ0_DxrlApj9nl405HSoM724ZuRRMTAOt1k0TTd1KdGNuo-Q1JkkW7vqtnrMdDbbNThbhkLlivXqSBPPF8RONApBmQMDayQq5HJlQHhyECsnDuR2m1OXoagnSoLVl_UQDHtDRmBah3AnxCj2VB-HdEpqPg5z8JoTbhUfSNfh6XZg1kWUmPlfeq8P8zgdH8P23WtkZUdrmR6CDYKIz1kInicNODvA4FrMGqCPaBkt_ZBpvLKgp5RA\r\n' +
+        'User-Agent: axios/1.6.5\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: localhost:8000\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/api/applications',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'localhost',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://localhost:8000/api/applications',
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: connect ECONNREFUSED ::1:8000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -4078,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 8000
+  }
+} rootId=89ag55zzbdbyewa, id=89ag55zzbdbyewa
+2024-01-15T15:32:39.512Z - error: Error during processing request at http://localhost:5488/api/profile/au9Ox2wveG4qQYn2/events, details: Error: Timeout when waiting for profile blob to be fully persisted
+    at module.exports (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at MainReporter.createError (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-express\lib\routes.js:286:26
+2024-01-15T15:32:44.579Z - error: Error during processing request at http://localhost:5488/api/profile/au9Ox2wveG4qQYn2/events, details: Error: Timeout when waiting for profile blob to be fully persisted
+    at module.exports (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at MainReporter.createError (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-express\lib\routes.js:286:26
+2024-01-15T15:32:49.645Z - error: Error during processing request at http://localhost:5488/api/profile/au9Ox2wveG4qQYn2/events, details: Error: Timeout when waiting for profile blob to be fully persisted
+    at module.exports (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at MainReporter.createError (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-express\lib\routes.js:286:26
+2024-01-15T20:22:56.142Z - error: Report render failed
+(because) axiosError: connect ECONNREFUSED ::1:8000
+    at AxiosError.from (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\axios\dist\node\axios.cjs:837:14)
+    at RedirectableRequest.handleRequestError (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\axios\dist\node\axios.cjs:3090:25)
+    at RedirectableRequest.emit (node:events:517:28)
+    at eventHandlers.<computed> (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\follow-redirects\index.js:37:24)
+    at ClientRequest.emit (node:events:517:28)
+    at Socket.socketErrorListener (node:_http_client:501:9)
+    at Socket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  port: 8000,
+  address: '::1',
+  syscall: 'connect',
+  code: 'ECONNREFUSED',
+  errno: -4078,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/x-www-form-urlencoded',
+      Authorization: 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMGQ3ZjlkMDY1NGE4OGY1MTMyOWMwZGZjYWNiZGRiNmY1NzJiNmVhZjhjZTA5MWFhNmQyNDc1NGEwNTMwYWQxYTM0NDAzODc2YWIzNjI5YjMiLCJpYXQiOjE3MDUwNzUwNTMuOTk1NDIxLCJuYmYiOjE3MDUwNzUwNTMuOTk1NDI1LCJleHAiOjE3MzY2OTc0NTMuNTQwNjg0LCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.o2vFrmAjnxr5Quk3qeEYgw6CK7OzXQ3qzOumUSYo1jaav4k-oOmhrbdmvz6_ZI0921V7srq2sAbmxxujbpgtGreqqRkSO4-eH2p86yOWLf5FBoB-5TBjCn1xJMqq2Nuaubb8XbwQCbQ2lSV8LUjseg7RF46Dt6d49TPpINDh_qtzI2q07BZPcLWbmVGUz6bP52LAbeJl_K3DaVE6jJS6b3TikXIAweIMUttE5IMA1zJRT_RB6AkRAkRk79KuGdwWiHROrqE95ZM5h-_T77uqafD6eR0UPR-eZuRWLzAGsDOXL8n56c41kLZtrLfRyUJQ9GXMT2jvmwNX18XyBo8gU6SjgK1lnffUqdAkWYvEvRUZUOgbJjoSh85kuFop1d9M4ShXP8dUDShP31Odk0550fAI1iBLI32BO7r50IbxGoaIBinZN78zCmSkZ0_DxrlApj9nl405HSoM724ZuRRMTAOt1k0TTd1KdGNuo-Q1JkkW7vqtnrMdDbbNThbhkLlivXqSBPPF8RONApBmQMDayQq5HJlQHhyECsnDuR2m1OXoagnSoLVl_UQDHtDRmBah3AnxCj2VB-HdEpqPg5z8JoTbhUfSNfh6XZg1kWUmPlfeq8P8zgdH8P23WtkZUdrmR6CDYKIz1kInicNODvA4FrMGqCPaBkt_ZBpvLKgp5RA',
+      'User-Agent': 'axios/1.6.5',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    method: 'get',
+    url: 'http://localhost:8000/api/applications',
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: true,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 0,
+      constructed: true,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: true,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      [Symbol(kOnFinished)]: []
+    },
+    _events: [Object: null prototype] {
+      response: [Function: handleResponse],
+      error: [Function: handleRequestError],
+      socket: [Function: handleRequestSocket]
+    },
+    _eventsCount: 3,
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 21,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/api/applications',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'localhost',
+      port: '8000',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/api/applications'
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 0,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /api/applications HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMGQ3ZjlkMDY1NGE4OGY1MTMyOWMwZGZjYWNiZGRiNmY1NzJiNmVhZjhjZTA5MWFhNmQyNDc1NGEwNTMwYWQxYTM0NDAzODc2YWIzNjI5YjMiLCJpYXQiOjE3MDUwNzUwNTMuOTk1NDIxLCJuYmYiOjE3MDUwNzUwNTMuOTk1NDI1LCJleHAiOjE3MzY2OTc0NTMuNTQwNjg0LCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.o2vFrmAjnxr5Quk3qeEYgw6CK7OzXQ3qzOumUSYo1jaav4k-oOmhrbdmvz6_ZI0921V7srq2sAbmxxujbpgtGreqqRkSO4-eH2p86yOWLf5FBoB-5TBjCn1xJMqq2Nuaubb8XbwQCbQ2lSV8LUjseg7RF46Dt6d49TPpINDh_qtzI2q07BZPcLWbmVGUz6bP52LAbeJl_K3DaVE6jJS6b3TikXIAweIMUttE5IMA1zJRT_RB6AkRAkRk79KuGdwWiHROrqE95ZM5h-_T77uqafD6eR0UPR-eZuRWLzAGsDOXL8n56c41kLZtrLfRyUJQ9GXMT2jvmwNX18XyBo8gU6SjgK1lnffUqdAkWYvEvRUZUOgbJjoSh85kuFop1d9M4ShXP8dUDShP31Odk0550fAI1iBLI32BO7r50IbxGoaIBinZN78zCmSkZ0_DxrlApj9nl405HSoM724ZuRRMTAOt1k0TTd1KdGNuo-Q1JkkW7vqtnrMdDbbNThbhkLlivXqSBPPF8RONApBmQMDayQq5HJlQHhyECsnDuR2m1OXoagnSoLVl_UQDHtDRmBah3AnxCj2VB-HdEpqPg5z8JoTbhUfSNfh6XZg1kWUmPlfeq8P8zgdH8P23WtkZUdrmR6CDYKIz1kInicNODvA4FrMGqCPaBkt_ZBpvLKgp5RA\r\n' +
+        'User-Agent: axios/1.6.5\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: localhost:8000\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/api/applications',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'localhost',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://localhost:8000/api/applications',
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: connect ECONNREFUSED ::1:8000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -4078,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 8000
+  }
+} rootId=8vm9i34cvlzpq0s, id=8vm9i34cvlzpq0s
+2024-01-31T22:40:53.751Z - error: Error occurred during reporter init: TypeError: root path required
+    at serveStatic (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\serve-static\index.js:40:11)
+    at C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-express\lib\routes.js:31:88
+    at Array.forEach (<anonymous>)
+    at module.exports (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-express\lib\routes.js:31:41)
+    at configureExpressApp (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-express\lib\main.js:209:3)
+    at Object.<anonymous> (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-express\lib\main.js:326:21)
+    at ListenerCollection.fire (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:32)
+    at async MainReporter.init (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:265:7)
+    at async executeCommand (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-cli\lib\commander\executeCommand.js:22:20)
+    at async Object.handler (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-cli\lib\commander\registerCommand.js:76:9)
+2024-01-31T22:42:34.618Z - error: Error occurred during reporter init: TypeError: root path required
+    at serveStatic (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\serve-static\index.js:40:11)
+    at C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-express\lib\routes.js:31:88
+    at Array.forEach (<anonymous>)
+    at module.exports (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-express\lib\routes.js:31:41)
+    at configureExpressApp (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-express\lib\main.js:209:3)
+    at Object.<anonymous> (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-express\lib\main.js:326:21)
+    at ListenerCollection.fire (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:32)
+    at async MainReporter.init (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:265:7)
+    at async executeCommand (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-cli\lib\commander\executeCommand.js:22:20)
+    at async Object.handler (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-cli\lib\commander\registerCommand.js:76:9)
+2024-01-31T22:43:26.948Z - error: Error occurred during reporter init: TypeError: root path required
+    at serveStatic (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\serve-static\index.js:40:11)
+    at C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-express\lib\routes.js:31:88
+    at Array.forEach (<anonymous>)
+    at module.exports (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-express\lib\routes.js:31:41)
+    at configureExpressApp (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-express\lib\main.js:209:3)
+    at Object.<anonymous> (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-express\lib\main.js:326:21)
+    at ListenerCollection.fire (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:32)
+    at async MainReporter.init (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:265:7)
+    at async executeCommand (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-cli\lib\commander\executeCommand.js:22:20)
+    at async Object.handler (C:\Users\juank\Proyectos\Tecnologias\JsReportApp\node_modules\@jsreport\jsreport-cli\lib\commander\registerCommand.js:76:9)

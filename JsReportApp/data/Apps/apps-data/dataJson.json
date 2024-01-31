@@ -1,0 +1,7 @@
+{"success":true,"message":"Application retrieved successfully.",
+"data":[
+    {"id":1,"icon":"1702583747.png","URL":"applicationsview","created_at":"2023-12-14T15:19:05.000000Z","updated_at":"2023-12-14T19:55:47.000000Z"},
+    {"id":2,"icon":"1702581234.jpg","URL":"employeesview","created_at":"2023-12-14T19:13:54.000000Z","updated_at":"2023-12-14T19:13:54.000000Z"},
+    {"id":3,"icon":"1702583822.png","URL":"rolesview","created_at":"2023-12-14T19:57:02.000000Z","updated_at":"2023-12-14T19:57:02.000000Z"},
+    {"id":4,"icon":"1702584040.png","URL":"newsview","created_at":"2023-12-14T20:00:40.000000Z","updated_at":"2023-12-14T20:00:40.000000Z"},
+    {"id":5,"icon":"1702658124.png","URL":"http://google.com","created_at":"2023-12-15T16:35:24.000000Z","updated_at":"2023-12-17T05:09:34.000000Z"}]}

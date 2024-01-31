@@ -1,0 +1,25 @@
+{
+    "name": "apps-main",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "shortid": "RT0TK-P2C",
+    "chrome": {
+        "printBackground": true
+    },
+    "creationDate": {
+        "$$date": 1705003584197
+    },
+    "modificationDate": {
+        "$$date": 1706741489019
+    },
+    "_id": "VPlIV0OgKsye2ffL",
+    "$entitySet": "templates",
+    "scripts": [
+        {
+            "shortid": "fPhkMfgI1u"
+        }
+    ],
+    "data": {
+        "shortid": "wJWqaG1DF"
+    }
+}

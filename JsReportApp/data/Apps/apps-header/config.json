@@ -1,0 +1,17 @@
+{
+    "name": "apps-header",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "shortid": "n7TdwAYxb",
+    "chrome": {
+        "printBackground": true
+    },
+    "creationDate": {
+        "$$date": 1705003777484
+    },
+    "modificationDate": {
+        "$$date": 1705255774815
+    },
+    "_id": "duQ1z8vvqAlXpHg1",
+    "$entitySet": "templates"
+}

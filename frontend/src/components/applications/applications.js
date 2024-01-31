@@ -3,11 +3,30 @@ import './applications.css';
 import { getAllApplication, createApplication, updateApplication, deleteApplication } from '../../services/applicationService';
 import { Button, Popover, notification } from 'antd';
 import { useNavigate } from "react-router-dom";
+import jsreport from '@jsreport/browser-client';
+
+jsreport.serverUrl = 'http://localhost:5488/'
 
 function Applications() {
+
     const [Applications, setApplications] = useState([]);
     const [open, setOpen] = useState([]);
     const [openC, setOpenC] = useState(false);
+
+    const generateR = async () => {
+        const report = await jsreport.render({
+            template: {
+                shortid: 'RT0TK-P2C'
+            },
+            data: {
+                 token: localStorage.getItem('token')
+            }
+        })
+        //descargar automatico
+        //report.download('myreport.pdf')
+
+        report.openInWindow({title: 'myreport.pdf'})
+    }
 
     const hidec = () => {
         setOpenC(false);
@@ -209,6 +228,7 @@ function Applications() {
                         onOpenChange={handleOpenChangec}>
                         <Button type="primary" className='ButtonUpdate'>Create</Button>
                     </Popover>
+                    <Button onClick={generateR}>Generate Report</Button>
                 </div>
 
             </div>
